@@ -8,7 +8,7 @@ import javax.swing.JPanel;
 import javax.swing.JLabel;
 import javax.swing.JButton;
 
-public class MainWindow {
+public class LogInWindow {
 
 	private JFrame frmOsintgram;
 	private JTextField textField;
@@ -21,7 +21,7 @@ public class MainWindow {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					MainWindow window = new MainWindow();
+					LogInWindow window = new LogInWindow();
 					window.frmOsintgram.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -33,7 +33,7 @@ public class MainWindow {
 	/**
 	 * Create the application.
 	 */
-	public MainWindow() {
+	public LogInWindow() {
 		initialize();
 	}
 

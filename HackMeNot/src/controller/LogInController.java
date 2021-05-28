@@ -1,9 +1,12 @@
 package controller;
 
 import java.io.File;
+
+import javax.swing.DebugGraphics;
+
 import org.ini4j.*;
 
-import view.MainWindow;
+import view.LogInWindow;
 public class LogInController {
 	{
 //Read from .ini files

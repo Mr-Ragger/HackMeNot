@@ -13,7 +13,7 @@ import javax.swing.JScrollPane;
 
 public class ToolsWindows {
 
-	private JFrame frame;
+	private JFrame frmOsintgram;
 
 	/**
 	 * Launch the application.
@@ -23,7 +23,7 @@ public class ToolsWindows {
 			public void run() {
 				try {
 					ToolsWindows window = new ToolsWindows();
-					window.frame.setVisible(true);
+					window.frmOsintgram.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -42,15 +42,16 @@ public class ToolsWindows {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		frame = new JFrame();
-		frame.setResizable(false);
-		frame.setBounds(100, 100, 711, 541);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.getContentPane().setLayout(null);
+		frmOsintgram = new JFrame();
+		frmOsintgram.setTitle("Osintgram");
+		frmOsintgram.setResizable(false);
+		frmOsintgram.setBounds(100, 100, 711, 541);
+		frmOsintgram.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frmOsintgram.getContentPane().setLayout(null);
 		
 		JPanel userInfoPanel = new JPanel();
 		userInfoPanel.setBounds(33, 54, 225, 433);
-		frame.getContentPane().add(userInfoPanel);
+		frmOsintgram.getContentPane().add(userInfoPanel);
 		userInfoPanel.setLayout(null);
 		
 		JLabel userInfoTitleLabel = new JLabel("User Information");
@@ -68,7 +69,7 @@ public class ToolsWindows {
 		
 		JPanel userOptionsPanel = new JPanel();
 		userOptionsPanel.setBounds(268, 54, 427, 433);
-		frame.getContentPane().add(userOptionsPanel);
+		frmOsintgram.getContentPane().add(userOptionsPanel);
 		userOptionsPanel.setLayout(null);
 		
 		JLabel userControllsLabel = new JLabel("Target Options");
