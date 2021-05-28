@@ -10,6 +10,8 @@ import java.awt.Color;
 import javax.swing.JButton;
 import java.awt.Button;
 import javax.swing.JScrollPane;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class ToolsWindows {
 
@@ -50,7 +52,7 @@ public class ToolsWindows {
 		frmOsintgram.getContentPane().setLayout(null);
 		
 		JPanel userInfoPanel = new JPanel();
-		userInfoPanel.setBounds(33, 54, 225, 433);
+		userInfoPanel.setBounds(10, 11, 248, 476);
 		frmOsintgram.getContentPane().add(userInfoPanel);
 		userInfoPanel.setLayout(null);
 		
@@ -68,7 +70,7 @@ public class ToolsWindows {
 		txtUserInfo.setBackground(Color.BLACK);
 		
 		JPanel userOptionsPanel = new JPanel();
-		userOptionsPanel.setBounds(268, 54, 427, 433);
+		userOptionsPanel.setBounds(268, 11, 427, 476);
 		frmOsintgram.getContentPane().add(userOptionsPanel);
 		userOptionsPanel.setLayout(null);
 		
@@ -77,6 +79,14 @@ public class ToolsWindows {
 		userOptionsPanel.add(userControllsLabel);
 		
 		JButton btnDownloadImages = new JButton("Download All Images");
+		btnDownloadImages.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				
+				
+				
+			}
+		});
 		btnDownloadImages.setBounds(10, 36, 192, 49);
 		userOptionsPanel.add(btnDownloadImages);
 		
