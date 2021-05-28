@@ -1,0 +1,7 @@
+GUI for Osintgram
+Requeriments:
+	Credentials.ini required <User and pass>.
+	Python3 + pip3.
+	Execute with Python3 main.py <Target>.
+	Manage Input and Output.
+	
