@@ -24,7 +24,6 @@ public class Main {
 			command[2] = login.getTarget();
 
 			Runtime rt = Runtime.getRuntime();
-			//
 			
 			try {
 				Process p = rt.exec(command);
