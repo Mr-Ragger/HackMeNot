@@ -12,6 +12,7 @@ import java.awt.Button;
 import javax.swing.JScrollPane;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import javax.swing.JTree;
 
 public class ToolsWindows {
 
@@ -111,9 +112,10 @@ public class ToolsWindows {
 		btnShowFollowedEmail.setBounds(10, 216, 192, 49);
 		userOptionsPanel.add(btnShowFollowedEmail);
 		
-		JButton btnShowDataFromFollowed = new JButton("Show Data");
-		btnShowDataFromFollowed.setBounds(212, 216, 205, 49);
-		userOptionsPanel.add(btnShowDataFromFollowed);
+		JButton btnShowPhoneFromFollowed = new JButton("Show Phone");
+		btnShowPhoneFromFollowed.setToolTipText("show phone number");
+		btnShowPhoneFromFollowed.setBounds(212, 216, 205, 49);
+		userOptionsPanel.add(btnShowPhoneFromFollowed);
 		
 		JButton btnNewButton = new JButton("Show All People Following Target");
 		btnNewButton.setBounds(10, 276, 407, 49);
@@ -123,8 +125,9 @@ public class ToolsWindows {
 		btnShowEmailFollowing.setBounds(10, 336, 192, 49);
 		userOptionsPanel.add(btnShowEmailFollowing);
 		
-		JButton btnShowDataFromFollowing = new JButton("Show Data");
-		btnShowDataFromFollowing.setBounds(212, 336, 205, 49);
-		userOptionsPanel.add(btnShowDataFromFollowing);
+		JButton btnShowPhoneFromFollowing = new JButton("Show Phone");
+		btnShowPhoneFromFollowing.setToolTipText("show phone number");
+		btnShowPhoneFromFollowing.setBounds(212, 336, 205, 49);
+		userOptionsPanel.add(btnShowPhoneFromFollowing);
 	}
 }
