@@ -14,38 +14,50 @@ public class Main {
 	public static void main(String[] args) {
 		
 		File iniFile = new File("Osintgram/config/credentials.ini");
-		String[] command = {"python3", "Osintgram/main.py","anxopuntojar"};
-
+		String command = "python3 Osintgram/main.py ";
+		/*
 		// Obtenemos los datos de login antes de iniciar el programa
 		LogInController loginController = new LogInController(iniFile);
 		LogIn login = loginController.getLogin();
 
 		if (loginController.writeIni(login)) {
-			command[2] = login.getTarget();
+			command += login.getTarget();
 
-			Runtime rt = Runtime.getRuntime();
+			OsintgramController osin = new OsintgramController(login);
 			
-			try {
-				Process p = rt.exec(command);
-				
-
-				BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
-				String response = "";
-				String line;
-				while ((line = reader.readLine()) != null) {
-					response += line+"\r\n";
-				}
-				reader.close();
-				System.out.println(response);
-
-			} catch (Exception e) {
-				// TODO: handle exception
+			if(osin.start()) {
+				System.out.println("Start");
+				//osin.sendCommand("dir");
+				System.out.println(osin.readOutput());
+			} else {
+				System.out.println("Error al iniciar cmd.");
 			}
+
 
 		} else {
 			System.out.println("Error al introducir credenciales.");
 		}
+		*/
+		
 
+		OsintgramController osin = new OsintgramController(new LogIn("", "", "algo"));
+
+		System.out.println("Start: " + osin.start());
+		
+
+		/*try {
+			//process = Runtime.getRuntime().exec(COMMAND);//startOsintgram.start();
+			ProcessBuilder pb = new ProcessBuilder("python.exe", "Osintgram\\main.py", "algo");
+            pb.redirectOutput(new File("output.txt"));
+            Process process = pb.start();
+			while(process.isAlive()) {
+				
+			}
+			System.out.println(process.exitValue());
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}*/
 	}
 
 }

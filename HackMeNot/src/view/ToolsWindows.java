@@ -12,7 +12,14 @@ import java.awt.Button;
 import javax.swing.JScrollPane;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.IOException;
+
 import javax.swing.JTree;
+
+import controller.ToolsWindowsController;
+
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class ToolsWindows {
 
@@ -39,6 +46,7 @@ public class ToolsWindows {
 	 */
 	public ToolsWindows() {
 		initialize();
+		frmOsintgram.setVisible(true);
 	}
 
 	/**
@@ -66,7 +74,13 @@ public class ToolsWindows {
 		userInfoPanel.add(userInfoScrollPanel);
 		
 		JTextArea txtUserInfo = new JTextArea();
-		userInfoScrollPanel.setViewportView(txtUserInfo);
+		try {
+			txtUserInfo.setText(ToolsWindowsController.getUserInfo());
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+//		userInfoScrollPanel.setViewportView(txtUserInfo);
 		txtUserInfo.setForeground(Color.WHITE);
 		txtUserInfo.setBackground(Color.BLACK);
 		
@@ -80,9 +94,15 @@ public class ToolsWindows {
 		userOptionsPanel.add(userControllsLabel);
 		
 		JButton btnDownloadImages = new JButton("Download All Images");
+		btnDownloadImages.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		btnDownloadImages.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
+				
+				
 				
 				
 				

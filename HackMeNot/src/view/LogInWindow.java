@@ -11,7 +11,14 @@ import javax.swing.JButton;
 import javax.swing.JPasswordField;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.IOException;
+
 import javax.swing.SwingConstants;
+
+import controller.OsintgramController;
+
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class LogInWindow {
 
@@ -87,16 +94,44 @@ public class LogInWindow {
 		panel.add(lblSavePassword);
 		
 		JButton btnLogIn = new JButton("Log In");
-		btnLogIn.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-				login.setUsername(textField.getText());
-				login.setPassword(pssFieldUser.getText());
-				login.setTarget(txtSetTarget.getText());
-
-				frmOsintgram.dispose();
+		btnLogIn.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+			login.setUsername(textField.getText());
+			login.setPassword(pssFieldUser.getText());
+			login.setTarget(txtSetTarget.getText());
+			
+			OsintgramController osin = new OsintgramController(login);
+			
+			if(osin.start()) {
+				System.out.println("Start");
+				osin.sendCommand("dir");
+				System.out.println(osin.readOutput());
+			} else {
+				System.out.println("Error al iniciar cmd.");
+			}
+			//ToolsWindows openTw = new ToolsWindows();
+			
+			frmOsintgram.dispose();	
 			}
 		});
+
+
+//		btnLogIn.addMouseListener(new MouseAdapter() {
+////			@Override
+////			public void mouseClicked(MouseEvent e) {
+////				
+////				login.setUsername(textField.getText());
+////				login.setPassword(pssFieldUser.getText());
+////				login.setTarget(txtSetTarget.getText());
+////				boolean loginCorrect = true;
+////				if (loginCorrect) {
+////					ToolsWindows openTw = new ToolsWindows();
+////					openTw.setVisible(true);
+////				}
+////				frmOsintgram.dispose();
+////			}
+//		});
 		btnLogIn.setBounds(90, 254, 89, 23);
 		panel.add(btnLogIn);
 		
