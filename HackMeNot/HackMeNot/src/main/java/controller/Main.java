@@ -18,7 +18,16 @@ public class Main {
         LogIn login = loginController.getLogin();
 
         if (loginController.writeIni(login)) {
-            System.out.println("Guardado datos de login");
+            OsintgramController osin = new OsintgramController(login);
+
+            if (osin.start()) {
+                System.out.println("Start");
+                System.out.println(osin.getLastOutput());
+            } else {
+                System.out.println("Error al iniciar osintgram.");
+                JOptionPane.showMessageDialog(null, osin.getLastOutput(),
+                    "Loging Error", JOptionPane.ERROR_MESSAGE);
+            }
         } else {
             System.out.println("Error al introducir credenciales.");
         }

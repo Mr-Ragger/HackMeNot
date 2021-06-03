@@ -86,16 +86,7 @@ public class LogInWindow {
                 login.setPassword(pssFieldUser.getText());
                 login.setTarget(txtSetTarget.getText());
                 
-                OsintgramController osin = new OsintgramController(login);
-
-                if (osin.start()) {
-                    System.out.println("Start");
-                    System.out.println(osin.getLastOutput());
-                } else {
-                    System.out.println("Error al iniciar osintgram.");
-                    JOptionPane.showMessageDialog(null, osin.getLastOutput(),
-                        "Loging Error", JOptionPane.ERROR_MESSAGE);
-                }
+                
 
                 frmOsintgram.dispose();
             }

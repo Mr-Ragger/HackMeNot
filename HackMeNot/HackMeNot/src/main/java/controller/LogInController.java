@@ -20,7 +20,9 @@ public class LogInController {
 
     public LogIn getLogin() {
         LogIn login = this.readIni();
+
         LogInWindow window = new LogInWindow(login);
+
         login = window.getLogin();
 
         return login;

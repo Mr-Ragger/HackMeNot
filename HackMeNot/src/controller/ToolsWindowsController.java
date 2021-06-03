@@ -6,37 +6,46 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+import javax.swing.JOptionPane;
+
+import model.LogIn;
+
 public class ToolsWindowsController {
 
-	public static void downloadImages() throws IOException {
+	private OsintgramController osint;
 
-		ProcessBuilder createCMD = new ProcessBuilder();
+	public ToolsWindowsController(OsintgramController osint) {
+		this.osint = osint;
+	}
 
-		createCMD.command();
+	public String getUserInfo() throws IOException {
+		// Reading data using readLine
+		String userInfo = osint.readOutput();
+
+		return userInfo;
+	}
+	public void downloadImages() throws IOException {
+		osint.sendCommand("photos\n");
+	}
 
 	
-		
-		
-		Process process = Runtime.getRuntime().exec("lsb_release -a");
-		InputStream inputstream = process.getInputStream();
-		BufferedInputStream bufferedinputstream = new BufferedInputStream(inputstream);
-		
-		  }
-			
-	public static String getUserInfo() throws IOException {
-		
-				// Enter data using BufferReader
-		        BufferedReader reader = new BufferedReader(
-		            new InputStreamReader(System.in));
-		 
-		        // Reading data using readLine
-		        String userInfo = reader.readLine();
-		        
-				return userInfo;
-		        
-		  
+
+	public void downloadProPic() {
+		osint.sendCommand("propic\n");
+	}
+
+	public void seeFollowersMails() {
+
+		osint.sendCommand("fwersemail\n");
+		 JOptionPane.showMessageDialog(null, osint.getLastOutput(),
+                 "Followers Emails", JOptionPane.PLAIN_MESSAGE);
 
 	}
-	
+
+	public void seeFollowingMails() {
+
+		osint.sendCommand("fwingsemail\n");
+
+	}
 
 }
