@@ -112,10 +112,23 @@ public class ToolsWindows {
 		userOptionsPanel.add(btnDownloadPFP);
 
 		JButton btnShowComments = new JButton("Show All Coments");
+		btnShowComments.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				tools.showAllComments();
+			}
+		});
 		btnShowComments.setBounds(10, 96, 192, 49);
 		userOptionsPanel.add(btnShowComments);
 
 		JButton btnShowAllTagged = new JButton("Show All Tagged Pics");
+		btnShowAllTagged.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+
+				tools.showAllTagged();
+
+			}
+		});
 		btnShowAllTagged.setBounds(212, 96, 205, 49);
 		userOptionsPanel.add(btnShowAllTagged);
 

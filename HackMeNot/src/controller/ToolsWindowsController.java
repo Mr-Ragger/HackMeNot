@@ -80,8 +80,17 @@ public class ToolsWindowsController {
 		JOptionPane.showMessageDialog(null, osint.getLastOutput(), "Followers Emails", JOptionPane.PLAIN_MESSAGE);
 
 	}
-
+	// Show all people who tagged
+	public void showAllTagged() {
+		osint.sendCommand("tagged\n");
+		JOptionPane.showMessageDialog(null, osint.getLastOutput(), "People who taggerd", JOptionPane.PLAIN_MESSAGE);
+	}
 	
-
+	// Show all comments
+	public void showAllComments() {
+		osint.sendCommand("comments\n");
+		JOptionPane.showMessageDialog(null, osint.getLastOutput(), "All comments", JOptionPane.PLAIN_MESSAGE);
+	}
+	
 
 }
