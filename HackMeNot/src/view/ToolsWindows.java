@@ -63,14 +63,21 @@ public class ToolsWindows {
 		userInfoPanel.add(userInfoScrollPanel);
 
 		JTextArea txtUserInfo = new JTextArea();
+		txtUserInfo.setTabSize(7);
+		txtUserInfo.setWrapStyleWord(true);
+		txtUserInfo.setEditable(false);
+		txtUserInfo.setLineWrap(true);
 		userInfoScrollPanel.setViewportView(txtUserInfo);
+
 		txtUserInfo.setForeground(Color.WHITE);
 		txtUserInfo.setBackground(Color.BLACK);
-		try {
-			txtUserInfo.setText(tools.getUserInfo());
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
+		
+		txtUserInfo.setText("User: anxopuntojar\nID: anxo.jar\nFull Name: Angel Rodriguez\nBiography: What im supposed to do here\nFollowers: 213\nFollowing: 367");
+//		try {
+//			txtUserInfo.setText(tools.getUserInfo());
+//		} catch (IOException e1) {
+//			e1.printStackTrace();
+//		}
 
 		JPanel userOptionsPanel = new JPanel();
 		userOptionsPanel.setBounds(268, 11, 427, 476);
@@ -114,7 +121,7 @@ public class ToolsWindows {
 		JButton btnShowComments = new JButton("Show All Coments");
 		btnShowComments.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
+
 				tools.showAllComments();
 			}
 		});

@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_iWQP0MTQEeuofKYwmY_N2w">
+  <modelElement href="HackMeNot.uml#_iTGOIMTQEeuofKYwmY_N2w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i-mCMMTQEeuofKYwmY_N2w" targetItem="_i-tXK8TQEeuofKYwmY_N2w" sourceItem="_i-k0EMTQEeuofKYwmY_N2w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_i-sI0MTQEeuofKYwmY_N2w" source="_i-tW-cTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izNRkMTQEeuofKYwmY_N2w"/>
+    <stereotypes xmi:id="_i-sI0cTQEeuofKYwmY_N2w" name="Reference">
+      <modelElement href="HackMeNot.uml#_izNRksTQEeuofKYwmY_N2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_i-sI0sTQEeuofKYwmY_N2w" text=""/>
+    <sourceRole xmi:id="_i-sv4MTQEeuofKYwmY_N2w" aggregationKind="NONE" name="">
+      <modelElement href="HackMeNot.uml#_izNRkcTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i-sv4cTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i-sv4sTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_i-sv48TQEeuofKYwmY_N2w" aggregationKind="NONE" name="process" navigable="true">
+      <modelElement href="HackMeNot.uml#_iyzo9cTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i-sv5MTQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_i-sv5cTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_i-tW8MTQEeuofKYwmY_N2w" sourceAnchor="0.0,60.0" targetAnchor="416.0,62.0" target="_i_7e8MTQEeuofKYwmY_N2w" source="_i-tW-cTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izN4oMTQEeuofKYwmY_N2w"/>
+    <stereotypes xmi:id="_i-tW8cTQEeuofKYwmY_N2w" name="Reference">
+      <modelElement href="HackMeNot.uml#_izN4osTQEeuofKYwmY_N2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_i-tW8sTQEeuofKYwmY_N2w" text="">
+      <visualProperties xmi:id="_jFbqAMTQEeuofKYwmY_N2w" position="-13.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_i-tW88TQEeuofKYwmY_N2w" aggregationKind="NONE" name="">
+      <modelElement href="HackMeNot.uml#_izN4ocTQEeuofKYwmY_N2w"/>
+      <visualProperties xmi:id="_jFbC8cTQEeuofKYwmY_N2w" position="-27.000000000000004,-48.0"/>
+      <visibility xmi:id="_i-tW9MTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i-tW9cTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_i-tW9sTQEeuofKYwmY_N2w" aggregationKind="NONE" name="login" navigable="true">
+      <modelElement href="HackMeNot.uml#_iy0QAcTQEeuofKYwmY_N2w"/>
+      <visualProperties xmi:id="_jFbqAcTQEeuofKYwmY_N2w" position="1.0,-87.0"/>
+      <visibility xmi:id="_i-tW98TQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_i-tW-MTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_i_gBIMTQEeuofKYwmY_N2w" sourceAnchor="238.0,0.0" targetAnchor="156.0,232.0" target="_i-tW-cTQEeuofKYwmY_N2w" source="_i_h2UsTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izN4o8TQEeuofKYwmY_N2w"/>
+    <stereotypes xmi:id="_i_goM8TQEeuofKYwmY_N2w" name="Reference">
+      <modelElement href="HackMeNot.uml#_izOfsMTQEeuofKYwmY_N2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_i_goMMTQEeuofKYwmY_N2w" text="">
+      <visualProperties xmi:id="_jFcREcTQEeuofKYwmY_N2w" position="-16.0,-18.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_i_goMcTQEeuofKYwmY_N2w" aggregationKind="NONE" name="">
+      <modelElement href="HackMeNot.uml#_izN4pMTQEeuofKYwmY_N2w"/>
+      <visualProperties xmi:id="_jFcREMTQEeuofKYwmY_N2w" position="41.0,-46.0"/>
+      <visibility xmi:id="_i_hPQcTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_hPQMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_i_goMsTQEeuofKYwmY_N2w" aggregationKind="NONE" name="osint" navigable="true">
+      <modelElement href="HackMeNot.uml#_iy03EMTQEeuofKYwmY_N2w"/>
+      <visualProperties xmi:id="_jFc4IMTQEeuofKYwmY_N2w" position="-82.0,1.0"/>
+      <visibility xmi:id="_i_h2UMTQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_i_hPQsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_i_0KMMTQEeuofKYwmY_N2w" source="_i_0xSMTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izMDcMTQEeuofKYwmY_N2w"/>
+    <stereotypes xmi:id="_i_0xQMTQEeuofKYwmY_N2w" name="Reference">
+      <modelElement href="HackMeNot.uml#_izMqgMTQEeuofKYwmY_N2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_i_0xQcTQEeuofKYwmY_N2w" text=""/>
+    <sourceRole xmi:id="_i_0xQsTQEeuofKYwmY_N2w" aggregationKind="NONE" name="">
+      <modelElement href="HackMeNot.uml#_izMDccTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_0xQ8TQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_0xRMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_i_0xRcTQEeuofKYwmY_N2w" aggregationKind="NONE" name="file" navigable="true">
+      <modelElement href="HackMeNot.uml#_iyya0MTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_0xRsTQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_i_0xR8TQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i_30kMTQEeuofKYwmY_N2w" targetItem="_i_30kcTQEeuofKYwmY_N2w" sourceItem="_i_3NgMTQEeuofKYwmY_N2w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_i__wYMTQEeuofKYwmY_N2w" sourceAnchor="172.0,0.0" targetAnchor="208.0,137.0" target="_i_7e8MTQEeuofKYwmY_N2w" source="_jAEo6cTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izPGw8TQEeuofKYwmY_N2w"/>
+    <stereotypes xmi:id="_jAA-gMTQEeuofKYwmY_N2w" name="Reference">
+      <modelElement href="HackMeNot.uml#_izPt0MTQEeuofKYwmY_N2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jAAXcMTQEeuofKYwmY_N2w" text="">
+      <visualProperties xmi:id="_jFdfMMTQEeuofKYwmY_N2w" position="-44.0,24.714285714285722"/>
+    </nameVisual>
+    <sourceRole xmi:id="_jAAXccTQEeuofKYwmY_N2w" aggregationKind="NONE" name="">
+      <modelElement href="HackMeNot.uml#_izPGxMTQEeuofKYwmY_N2w"/>
+      <visualProperties xmi:id="_jFc4IcTQEeuofKYwmY_N2w" position="2.0,-67.66666666666666"/>
+      <visibility xmi:id="_jACMocTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_jACMoMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jAAXcsTQEeuofKYwmY_N2w" aggregationKind="NONE" name="login" navigable="true">
+      <modelElement href="HackMeNot.uml#_iy2sQMTQEeuofKYwmY_N2w"/>
+      <visualProperties xmi:id="_jFdfMcTQEeuofKYwmY_N2w" position="-44.0,22.66666666666667"/>
+      <visibility xmi:id="_jACMo8TQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_jACMosTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jAA-gsTQEeuofKYwmY_N2w" targetItem="_jAEpBMTQEeuofKYwmY_N2w" sourceItem="_jAA-gcTQEeuofKYwmY_N2w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jABlkcTQEeuofKYwmY_N2w" targetItem="_jAEpB8TQEeuofKYwmY_N2w" sourceItem="_jABlkMTQEeuofKYwmY_N2w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jACzsMTQEeuofKYwmY_N2w" source="_jAEo6cTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izOfscTQEeuofKYwmY_N2w"/>
+    <stereotypes xmi:id="_jACzscTQEeuofKYwmY_N2w" name="Reference">
+      <modelElement href="HackMeNot.uml#_izOfs8TQEeuofKYwmY_N2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jACzssTQEeuofKYwmY_N2w" text=""/>
+    <sourceRole xmi:id="_jACzs8TQEeuofKYwmY_N2w" aggregationKind="NONE" name="">
+      <modelElement href="HackMeNot.uml#_izOfssTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_jACztMTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_jACztcTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jACztsTQEeuofKYwmY_N2w" aggregationKind="NONE" name="frmOsintgram" navigable="true">
+      <modelElement href="HackMeNot.uml#_iy1eIsTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_jACzt8TQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jACzuMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jADawMTQEeuofKYwmY_N2w" source="_jAEo6cTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izPGwMTQEeuofKYwmY_N2w"/>
+    <stereotypes xmi:id="_jADawcTQEeuofKYwmY_N2w" name="Reference">
+      <modelElement href="HackMeNot.uml#_izPGwsTQEeuofKYwmY_N2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jADawsTQEeuofKYwmY_N2w" text=""/>
+    <sourceRole xmi:id="_jADaw8TQEeuofKYwmY_N2w" aggregationKind="NONE" name="">
+      <modelElement href="HackMeNot.uml#_izPGwcTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_jADaxMTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_jADaxcTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jADaxsTQEeuofKYwmY_N2w" aggregationKind="NONE" name="textField" navigable="true">
+      <modelElement href="HackMeNot.uml#_iy2FMcTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_jADax8TQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jADayMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jAEB0MTQEeuofKYwmY_N2w" source="_jAEo6cTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izPt0cTQEeuofKYwmY_N2w"/>
+    <stereotypes xmi:id="_jAEB0cTQEeuofKYwmY_N2w" name="Reference">
+      <modelElement href="HackMeNot.uml#_izQU4MTQEeuofKYwmY_N2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jAEB0sTQEeuofKYwmY_N2w" text=""/>
+    <sourceRole xmi:id="_jAEB08TQEeuofKYwmY_N2w" aggregationKind="NONE" name="">
+      <modelElement href="HackMeNot.uml#_izPt0sTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_jAEB1MTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_jAEB1cTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jAEB1sTQEeuofKYwmY_N2w" aggregationKind="NONE" name="pssFieldUser" navigable="true">
+      <modelElement href="HackMeNot.uml#_iy2sQcTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_jAEB18TQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jAEB2MTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jAEo4MTQEeuofKYwmY_N2w" source="_jAEo6cTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izQU4cTQEeuofKYwmY_N2w"/>
+    <stereotypes xmi:id="_jAEo4cTQEeuofKYwmY_N2w" name="Reference">
+      <modelElement href="HackMeNot.uml#_izQ78MTQEeuofKYwmY_N2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jAEo4sTQEeuofKYwmY_N2w" text=""/>
+    <sourceRole xmi:id="_jAEo48TQEeuofKYwmY_N2w" aggregationKind="NONE" name="">
+      <modelElement href="HackMeNot.uml#_izQU4sTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_jAEo5MTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_jAEo5cTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jAEo5sTQEeuofKYwmY_N2w" aggregationKind="NONE" name="txtSetTarget" navigable="true">
+      <modelElement href="HackMeNot.uml#_iy2sQ8TQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_jAEo58TQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jAEo6MTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jAJhYMTQEeuofKYwmY_N2w" sourceAnchor="393.0,49.0" targetAnchor="381.0,116.0" target="_i-tW-cTQEeuofKYwmY_N2w" source="_jAQ2IMTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izRjAcTQEeuofKYwmY_N2w"/>
+    <bendpoints xmi:id="_arxa8MTREeuofKYwmY_N2w" sourceX="112" targetX="37" targetY="500"/>
+    <bendpoints xmi:id="_aryCAMTREeuofKYwmY_N2w" sourceX="112" sourceY="-500" targetX="37"/>
+    <stereotypes xmi:id="_jANy1MTQEeuofKYwmY_N2w" name="Reference">
+      <modelElement href="HackMeNot.uml#_izRjA8TQEeuofKYwmY_N2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jANy0cTQEeuofKYwmY_N2w" text="">
+      <visualProperties xmi:id="_jFeGQcTQEeuofKYwmY_N2w" position="2.0,13.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_jANy0sTQEeuofKYwmY_N2w" aggregationKind="NONE" name="">
+      <modelElement href="HackMeNot.uml#_izRjAsTQEeuofKYwmY_N2w"/>
+      <visualProperties xmi:id="_jFeGQMTQEeuofKYwmY_N2w" position="58.0,-46.0"/>
+      <visibility xmi:id="_jAPoA8TQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_jAPoAsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jANy08TQEeuofKYwmY_N2w" aggregationKind="NONE" name="osint" navigable="true">
+      <modelElement href="HackMeNot.uml#_iy36YcTQEeuofKYwmY_N2w"/>
+      <visualProperties xmi:id="_jFeGQsTQEeuofKYwmY_N2w" position="41.0,83.0"/>
+      <visibility xmi:id="_jAPoBcTQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jAPoBMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jANLwMTQEeuofKYwmY_N2w" sourceAnchor="247.0,0.0" targetAnchor="242.0,264.0" target="_i_h2UsTQEeuofKYwmY_N2w" source="_jAQ2IMTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izRjBMTQEeuofKYwmY_N2w"/>
+    <stereotypes xmi:id="_jAOZ4MTQEeuofKYwmY_N2w" name="Reference">
+      <modelElement href="HackMeNot.uml#_izSKEMTQEeuofKYwmY_N2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jANy1cTQEeuofKYwmY_N2w" text="">
+      <visualProperties xmi:id="_jFetUcTQEeuofKYwmY_N2w" position="-83.0,-6.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_jANy1sTQEeuofKYwmY_N2w" aggregationKind="NONE" name="">
+      <modelElement href="HackMeNot.uml#_izRjBcTQEeuofKYwmY_N2w"/>
+      <visualProperties xmi:id="_jFetUMTQEeuofKYwmY_N2w" position="-17.0,-35.0"/>
+      <visibility xmi:id="_jAPoCMTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_jAPoB8TQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jANy18TQEeuofKYwmY_N2w" aggregationKind="NONE" name="tools" navigable="true">
+      <modelElement href="HackMeNot.uml#_iy4hcMTQEeuofKYwmY_N2w"/>
+      <visualProperties xmi:id="_jFetUsTQEeuofKYwmY_N2w" position="7.0,-6.0"/>
+      <visibility xmi:id="_jAPoCsTQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jAPoCcTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jANy0MTQEeuofKYwmY_N2w" source="_jAQ2IMTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izQ78cTQEeuofKYwmY_N2w"/>
+    <stereotypes xmi:id="_jAPoAcTQEeuofKYwmY_N2w" name="Reference">
+      <modelElement href="HackMeNot.uml#_izRjAMTQEeuofKYwmY_N2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jAPA8MTQEeuofKYwmY_N2w" text=""/>
+    <sourceRole xmi:id="_jAPA8cTQEeuofKYwmY_N2w" aggregationKind="NONE" name="">
+      <modelElement href="HackMeNot.uml#_izQ78sTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_jAQPEcTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_jAQPEMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jAPoAMTQEeuofKYwmY_N2w" aggregationKind="NONE" name="frmOsintgram" navigable="true">
+      <modelElement href="HackMeNot.uml#_iy3TUcTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_jAQPE8TQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jAQPEsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jAOZ4sTQEeuofKYwmY_N2w" targetItem="_jAQ2MsTQEeuofKYwmY_N2w" sourceItem="_jAOZ4cTQEeuofKYwmY_N2w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jAOZ5MTQEeuofKYwmY_N2w" targetItem="_jAQ2NcTQEeuofKYwmY_N2w" sourceItem="_jAOZ48TQEeuofKYwmY_N2w"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i-k0EMTQEeuofKYwmY_N2w" sourceConnectionVisual="_i-mCMMTQEeuofKYwmY_N2w" text="try { String[] cmd = { &quot;python3&quot;, &quot;main.py&quot;, &quot;anxopuntojar&quot; };&#xD;&#xA;&#x9; * Runtime.getRuntime().exec(cmd); } catch (IOException ioe) {&#xD;&#xA;&#x9; * System.out.println(ioe); }" item="_i-tXK8TQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izIZEMTQEeuofKYwmY_N2w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i_3NgMTQEeuofKYwmY_N2w" sourceConnectionVisual="_i_30kMTQEeuofKYwmY_N2w" text="*&#xD;&#xA;@author chelunike" item="_i_30kcTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izIZEcTQEeuofKYwmY_N2w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jAA-gcTQEeuofKYwmY_N2w" sourceConnectionVisual="_jAA-gsTQEeuofKYwmY_N2w" text="Initialize the contents of the frame." item="_jAEpBMTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izIZE8TQEeuofKYwmY_N2w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jABlkMTQEeuofKYwmY_N2w" sourceConnectionVisual="_jABlkcTQEeuofKYwmY_N2w" text="Create the application." item="_jAEpB8TQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izIZEsTQEeuofKYwmY_N2w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jAOZ4cTQEeuofKYwmY_N2w" sourceConnectionVisual="_jAOZ4sTQEeuofKYwmY_N2w" text="Initialize the contents of the frame." item="_jAQ2MsTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izIZFcTQEeuofKYwmY_N2w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jAOZ48TQEeuofKYwmY_N2w" sourceConnectionVisual="_jAOZ5MTQEeuofKYwmY_N2w" text="Create the application." item="_jAQ2NcTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_izIZFMTQEeuofKYwmY_N2w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i_7e8MTQEeuofKYwmY_N2w" name="LogIn" associationsIn="_i-tW8MTQEeuofKYwmY_N2w _i__wYMTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_ivRz0MTQEeuofKYwmY_N2w"/>
+    <visualProperties xmi:id="_i_7e8cTQEeuofKYwmY_N2w" position="-464.0,-162.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i_7e8sTQEeuofKYwmY_N2w" label="+"/>
+    <attributes xmi:id="_i_7e88TQEeuofKYwmY_N2w" name="username">
+      <modelElement href="HackMeNot.uml#_iy03EsTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_7e9MTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_7e9cTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_i_7e9sTQEeuofKYwmY_N2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i_7e98TQEeuofKYwmY_N2w" name="password">
+      <modelElement href="HackMeNot.uml#_iy1eIMTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_7e-MTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_7e-cTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_i_7e-sTQEeuofKYwmY_N2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i_7e-8TQEeuofKYwmY_N2w" name="target">
+      <modelElement href="HackMeNot.uml#_iy1eIcTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_7e_MTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_7e_cTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_i_7e_sTQEeuofKYwmY_N2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_i_7e_8TQEeuofKYwmY_N2w" name="LogIn">
+      <modelElement href="HackMeNot.uml#_ivTB8MTQEeuofKYwmY_N2w"/>
+      <keywords xmi:id="_i_7fAMTQEeuofKYwmY_N2w" keyword="create"/>
+      <stereotypes xmi:id="_i_7fAcTQEeuofKYwmY_N2w" name="LegacyStyledElement">
+        <modelElement href="HackMeNot.uml#_ivTpAcTQEeuofKYwmY_N2w"/>
+      </stereotypes>
+      <visibility xmi:id="_i_7fAsTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_7fA8TQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i_7fBMTQEeuofKYwmY_N2w">
+        <modelElement href="HackMeNot.uml#_ivTpAsTQEeuofKYwmY_N2w"/>
+        <type xmi:id="_i_7fBcTQEeuofKYwmY_N2w" name="LogIn">
+          <modelElement href="HackMeNot.uml#_ivRz0MTQEeuofKYwmY_N2w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_i_7fBsTQEeuofKYwmY_N2w" name="LogIn">
+      <modelElement href="HackMeNot.uml#_ivUQEMTQEeuofKYwmY_N2w"/>
+      <keywords xmi:id="_i_7fB8TQEeuofKYwmY_N2w" keyword="create"/>
+      <visibility xmi:id="_i_7fCMTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_7fCcTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i_7fCsTQEeuofKYwmY_N2w">
+        <modelElement href="HackMeNot.uml#_ivU3JcTQEeuofKYwmY_N2w"/>
+        <type xmi:id="_i_7fC8TQEeuofKYwmY_N2w" name="LogIn">
+          <modelElement href="HackMeNot.uml#_ivRz0MTQEeuofKYwmY_N2w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_i_7fDMTQEeuofKYwmY_N2w" name="username">
+        <modelElement href="HackMeNot.uml#_ivU3IMTQEeuofKYwmY_N2w"/>
+        <cardinality xmi:id="_i_7fDcTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+        <type xmi:id="_i_7fDsTQEeuofKYwmY_N2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_i_7fD8TQEeuofKYwmY_N2w" name="password">
+        <modelElement href="HackMeNot.uml#_ivU3IcTQEeuofKYwmY_N2w"/>
+        <cardinality xmi:id="_i_7fEMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+        <type xmi:id="_i_7fEcTQEeuofKYwmY_N2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_i_7fEsTQEeuofKYwmY_N2w" name="target">
+        <modelElement href="HackMeNot.uml#_ivU3IsTQEeuofKYwmY_N2w"/>
+        <cardinality xmi:id="_i_7fE8TQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+        <type xmi:id="_i_7fFMTQEeuofKYwmY_N2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i-tW-cTQEeuofKYwmY_N2w" name="OsintgramController" associationsIn="_i_gBIMTQEeuofKYwmY_N2w _jAJhYMTQEeuofKYwmY_N2w" associationsOut="_i-sI0MTQEeuofKYwmY_N2w _i-tW8MTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_ivE_gMTQEeuofKYwmY_N2w"/>
+    <visualProperties xmi:id="_i-tW-sTQEeuofKYwmY_N2w" position="24.0,-160.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i-tW-8TQEeuofKYwmY_N2w" label="+"/>
+    <attributes xmi:id="_i-tW_MTQEeuofKYwmY_N2w" defaultValue="&quot;output.txt&quot;" name="OUTPUT_FILE" staticAttribute="true">
+      <modelElement href="HackMeNot.uml#_iyzB4cTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i-tW_cTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i-tW_sTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_i-tW_8TQEeuofKYwmY_N2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i-tXAMTQEeuofKYwmY_N2w" defaultValue="&quot;python main.py &quot;" name="COMMAND" staticAttribute="true">
+      <modelElement href="HackMeNot.uml#_iyzo8cTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i-tXAcTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i-tXAsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_i-tXA8TQEeuofKYwmY_N2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i-tXBMTQEeuofKYwmY_N2w" defaultValue="&quot;ClientError&quot;" name="CLIENT_ERROR" staticAttribute="true">
+      <modelElement href="HackMeNot.uml#_iyzo88TQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i-tXBcTQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_i-tXBsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_i-tXB8TQEeuofKYwmY_N2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i-tXCMTQEeuofKYwmY_N2w" name="process">
+      <modelElement href="HackMeNot.uml#_iyzo9cTQEeuofKYwmY_N2w"/>
+      <stereotypes xmi:id="_i-tXCcTQEeuofKYwmY_N2w" name="LegacyStyledElement">
+        <modelElement href="HackMeNot.uml#_iy0QAMTQEeuofKYwmY_N2w"/>
+      </stereotypes>
+      <visibility xmi:id="_i-tXCsTQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_i-tXC8TQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_i-tXDMTQEeuofKYwmY_N2w" name="Process">
+        <modelElement href="HackMeNot.uml#_iyvXgcTQEeuofKYwmY_N2w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i-tXDcTQEeuofKYwmY_N2w" name="login">
+      <modelElement href="HackMeNot.uml#_iy0QAcTQEeuofKYwmY_N2w"/>
+      <stereotypes xmi:id="_i-tXDsTQEeuofKYwmY_N2w" name="LegacyStyledElement">
+        <modelElement href="HackMeNot.uml#_iy0QAsTQEeuofKYwmY_N2w"/>
+      </stereotypes>
+      <visibility xmi:id="_i-tXD8TQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_i-tXEMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_i-tXEcTQEeuofKYwmY_N2w" name="LogIn">
+        <modelElement href="HackMeNot.uml#_ivRz0MTQEeuofKYwmY_N2w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i-tXEsTQEeuofKYwmY_N2w" name="lastOutput">
+      <modelElement href="HackMeNot.uml#_iy0QA8TQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i-tXE8TQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i-tXFMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_i-tXFcTQEeuofKYwmY_N2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_i-tXFsTQEeuofKYwmY_N2w" name="start">
+      <modelElement href="HackMeNot.uml#_ivG0sMTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i-tXF8TQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i-tXGMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i-tXGcTQEeuofKYwmY_N2w">
+        <modelElement href="HackMeNot.uml#_ivG0scTQEeuofKYwmY_N2w"/>
+        <type xmi:id="_i-tXGsTQEeuofKYwmY_N2w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_i-tXG8TQEeuofKYwmY_N2w" name="sendCommand">
+      <modelElement href="HackMeNot.uml#_ivHbwMTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i-tXHMTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i-tXHcTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i-tXHsTQEeuofKYwmY_N2w">
+        <modelElement href="HackMeNot.uml#_ivHbwsTQEeuofKYwmY_N2w"/>
+        <type xmi:id="_i-tXH8TQEeuofKYwmY_N2w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_i-tXIMTQEeuofKYwmY_N2w" name="command">
+        <modelElement href="HackMeNot.uml#_ivHbwcTQEeuofKYwmY_N2w"/>
+        <cardinality xmi:id="_i-tXIcTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+        <type xmi:id="_i-tXIsTQEeuofKYwmY_N2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_i-tXI8TQEeuofKYwmY_N2w" name="readOutput">
+      <modelElement href="HackMeNot.uml#_ivIC0MTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i-tXJMTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i-tXJcTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i-tXJsTQEeuofKYwmY_N2w">
+        <modelElement href="HackMeNot.uml#_ivIC0cTQEeuofKYwmY_N2w"/>
+        <type xmi:id="_i-tXJ8TQEeuofKYwmY_N2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_i-tXKMTQEeuofKYwmY_N2w" name="downloadImages">
+      <modelElement href="HackMeNot.uml#_ivIC0sTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i-tXKcTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i-tXKsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_i-tXK8TQEeuofKYwmY_N2w" comments="_i-k0EMTQEeuofKYwmY_N2w" targetConnectionVisual="_i-mCMMTQEeuofKYwmY_N2w" name="OsintgramController">
+      <modelElement href="HackMeNot.uml#_iyYLIMTQEeuofKYwmY_N2w"/>
+      <keywords xmi:id="_i-tXLMTQEeuofKYwmY_N2w" keyword="create"/>
+      <visibility xmi:id="_i-tXLcTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i-tXLsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i-tXL8TQEeuofKYwmY_N2w">
+        <modelElement href="HackMeNot.uml#_iyYyMsTQEeuofKYwmY_N2w"/>
+        <type xmi:id="_i-tXMMTQEeuofKYwmY_N2w" name="OsintgramController">
+          <modelElement href="HackMeNot.uml#_ivE_gMTQEeuofKYwmY_N2w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_i-tXMcTQEeuofKYwmY_N2w" name="login">
+        <modelElement href="HackMeNot.uml#_iyYLIcTQEeuofKYwmY_N2w"/>
+        <cardinality xmi:id="_i-tXMsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+        <type xmi:id="_i-tXM8TQEeuofKYwmY_N2w" name="LogIn">
+          <modelElement href="HackMeNot.uml#_ivRz0MTQEeuofKYwmY_N2w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i_h2UsTQEeuofKYwmY_N2w" name="ToolsWindowsController" associationsIn="_jANLwMTQEeuofKYwmY_N2w" associationsOut="_i_gBIMTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_ivLGIMTQEeuofKYwmY_N2w"/>
+    <visualProperties xmi:id="_i_h2U8TQEeuofKYwmY_N2w" position="-58.0,120.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i_h2VMTQEeuofKYwmY_N2w" label="+"/>
+    <attributes xmi:id="_i_h2VcTQEeuofKYwmY_N2w" name="osint">
+      <modelElement href="HackMeNot.uml#_iy03EMTQEeuofKYwmY_N2w"/>
+      <stereotypes xmi:id="_i_h2VsTQEeuofKYwmY_N2w" name="LegacyStyledElement">
+        <modelElement href="HackMeNot.uml#_iy03EcTQEeuofKYwmY_N2w"/>
+      </stereotypes>
+      <visibility xmi:id="_i_h2V8TQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_i_h2WMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_i_h2WcTQEeuofKYwmY_N2w" name="OsintgramController">
+        <modelElement href="HackMeNot.uml#_ivE_gMTQEeuofKYwmY_N2w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_i_h2WsTQEeuofKYwmY_N2w" name="getUserInfo">
+      <modelElement href="HackMeNot.uml#_ivM7UMTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_h2W8TQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_h2XMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i_h2XcTQEeuofKYwmY_N2w">
+        <modelElement href="HackMeNot.uml#_ivM7UcTQEeuofKYwmY_N2w"/>
+        <type xmi:id="_i_h2XsTQEeuofKYwmY_N2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_i_h2X8TQEeuofKYwmY_N2w" name="downloadImages">
+      <modelElement href="HackMeNot.uml#_ivNiYMTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_h2YMTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_h2YcTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_i_h2YsTQEeuofKYwmY_N2w" name="downloadProPic">
+      <modelElement href="HackMeNot.uml#_ivNiYcTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_h2Y8TQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_h2ZMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_i_h2ZcTQEeuofKYwmY_N2w" name="seeAllFollowing">
+      <modelElement href="HackMeNot.uml#_ivOJcMTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_h2ZsTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_h2Z8TQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_i_h2aMTQEeuofKYwmY_N2w" name="seeFollowingNumbers">
+      <modelElement href="HackMeNot.uml#_ivOJccTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_h2acTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_h2asTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_i_h2a8TQEeuofKYwmY_N2w" name="seeFollowingMails">
+      <modelElement href="HackMeNot.uml#_ivOwgMTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_h2bMTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_h2bcTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_i_h2bsTQEeuofKYwmY_N2w" name="seeAllFollowers">
+      <modelElement href="HackMeNot.uml#_ivOwgcTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_h2b8TQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_h2cMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_i_h2ccTQEeuofKYwmY_N2w" name="seeFollowersNumbers">
+      <modelElement href="HackMeNot.uml#_ivOwgsTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_h2csTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_h2c8TQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_i_h2dMTQEeuofKYwmY_N2w" name="seeFollowersMails">
+      <modelElement href="HackMeNot.uml#_ivPXkMTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_h2dcTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_h2dsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_i_h2d8TQEeuofKYwmY_N2w" name="showAllTagged">
+      <modelElement href="HackMeNot.uml#_ivPXkcTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_h2eMTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_h2ecTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_i_h2esTQEeuofKYwmY_N2w" name="showAllComments">
+      <modelElement href="HackMeNot.uml#_ivPXksTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_h2e8TQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_h2fMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_i_h2fcTQEeuofKYwmY_N2w" name="ToolsWindowsController">
+      <modelElement href="HackMeNot.uml#_iyb1gMTQEeuofKYwmY_N2w"/>
+      <keywords xmi:id="_i_h2fsTQEeuofKYwmY_N2w" keyword="create"/>
+      <visibility xmi:id="_i_h2f8TQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_h2gMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i_idYMTQEeuofKYwmY_N2w">
+        <modelElement href="HackMeNot.uml#_iyb1hMTQEeuofKYwmY_N2w"/>
+        <type xmi:id="_i_idYcTQEeuofKYwmY_N2w" name="ToolsWindowsController">
+          <modelElement href="HackMeNot.uml#_ivLGIMTQEeuofKYwmY_N2w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_i_idYsTQEeuofKYwmY_N2w" name="osint">
+        <modelElement href="HackMeNot.uml#_iyb1gcTQEeuofKYwmY_N2w"/>
+        <cardinality xmi:id="_i_idY8TQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+        <type xmi:id="_i_idZMTQEeuofKYwmY_N2w" name="OsintgramController">
+          <modelElement href="HackMeNot.uml#_ivE_gMTQEeuofKYwmY_N2w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jAQ2IMTQEeuofKYwmY_N2w" name="ToolsWindows" associationsOut="_jAJhYMTQEeuofKYwmY_N2w _jANLwMTQEeuofKYwmY_N2w _jANy0MTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_iva9wMTQEeuofKYwmY_N2w"/>
+    <visualProperties xmi:id="_jAQ2IcTQEeuofKYwmY_N2w" position="-63.0,407.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jAQ2IsTQEeuofKYwmY_N2w" label="+"/>
+    <attributes xmi:id="_jAQ2I8TQEeuofKYwmY_N2w" name="frmOsintgram">
+      <modelElement href="HackMeNot.uml#_iy3TUcTQEeuofKYwmY_N2w"/>
+      <stereotypes xmi:id="_jAQ2JMTQEeuofKYwmY_N2w" name="LegacyStyledElement">
+        <modelElement href="HackMeNot.uml#_iy36YMTQEeuofKYwmY_N2w"/>
+      </stereotypes>
+      <visibility xmi:id="_jAQ2JcTQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jAQ2JsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_jAQ2J8TQEeuofKYwmY_N2w" name="JFrame">
+        <modelElement href="HackMeNot.uml#_iyeRwcTQEeuofKYwmY_N2w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jAQ2KMTQEeuofKYwmY_N2w" name="osint">
+      <modelElement href="HackMeNot.uml#_iy36YcTQEeuofKYwmY_N2w"/>
+      <stereotypes xmi:id="_jAQ2KcTQEeuofKYwmY_N2w" name="LegacyStyledElement">
+        <modelElement href="HackMeNot.uml#_iy36YsTQEeuofKYwmY_N2w"/>
+      </stereotypes>
+      <visibility xmi:id="_jAQ2KsTQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jAQ2K8TQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_jAQ2LMTQEeuofKYwmY_N2w" name="OsintgramController">
+        <modelElement href="HackMeNot.uml#_ivE_gMTQEeuofKYwmY_N2w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jAQ2LcTQEeuofKYwmY_N2w" name="tools">
+      <modelElement href="HackMeNot.uml#_iy4hcMTQEeuofKYwmY_N2w"/>
+      <stereotypes xmi:id="_jAQ2LsTQEeuofKYwmY_N2w" name="LegacyStyledElement">
+        <modelElement href="HackMeNot.uml#_iy4hccTQEeuofKYwmY_N2w"/>
+      </stereotypes>
+      <visibility xmi:id="_jAQ2L8TQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jAQ2MMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_jAQ2McTQEeuofKYwmY_N2w" name="ToolsWindowsController">
+        <modelElement href="HackMeNot.uml#_ivLGIMTQEeuofKYwmY_N2w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jAQ2MsTQEeuofKYwmY_N2w" comments="_jAOZ4cTQEeuofKYwmY_N2w" targetConnectionVisual="_jAOZ4sTQEeuofKYwmY_N2w" name="initialize">
+      <modelElement href="HackMeNot.uml#_ivcy8MTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_jAQ2M8TQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jAQ2NMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_jAQ2NcTQEeuofKYwmY_N2w" comments="_jAOZ48TQEeuofKYwmY_N2w" targetConnectionVisual="_jAOZ5MTQEeuofKYwmY_N2w" name="ToolsWindows">
+      <modelElement href="HackMeNot.uml#_iysUMcTQEeuofKYwmY_N2w"/>
+      <keywords xmi:id="_jAQ2NsTQEeuofKYwmY_N2w" keyword="create"/>
+      <visibility xmi:id="_jAQ2N8TQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_jAQ2OMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jAQ2OcTQEeuofKYwmY_N2w">
+        <modelElement href="HackMeNot.uml#_iys7Q8TQEeuofKYwmY_N2w"/>
+        <type xmi:id="_jAQ2OsTQEeuofKYwmY_N2w" name="ToolsWindows">
+          <modelElement href="HackMeNot.uml#_iva9wMTQEeuofKYwmY_N2w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jAQ2O8TQEeuofKYwmY_N2w" name="osint">
+        <modelElement href="HackMeNot.uml#_iys7QMTQEeuofKYwmY_N2w"/>
+        <cardinality xmi:id="_jAQ2PMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+        <type xmi:id="_jAQ2PcTQEeuofKYwmY_N2w" name="OsintgramController">
+          <modelElement href="HackMeNot.uml#_ivE_gMTQEeuofKYwmY_N2w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i_eL8MTQEeuofKYwmY_N2w" name="Main">
+    <modelElement href="HackMeNot.uml#_ivDKUMTQEeuofKYwmY_N2w"/>
+    <visualProperties xmi:id="_i_eL8cTQEeuofKYwmY_N2w" position="-235.0,4.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i_eL8sTQEeuofKYwmY_N2w" label="+"/>
+    <operations xmi:id="_i_eL88TQEeuofKYwmY_N2w" name="main" staticOperation="true">
+      <modelElement href="HackMeNot.uml#_ivDxYMTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_eL9MTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_eL9cTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_i_eL9sTQEeuofKYwmY_N2w" name="args">
+        <modelElement href="HackMeNot.uml#_ivEYcMTQEeuofKYwmY_N2w"/>
+        <cardinality xmi:id="_i_eL98TQEeuofKYwmY_N2w" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_i_eL-MTQEeuofKYwmY_N2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jAEo6cTQEeuofKYwmY_N2w" name="LogInWindow" associationsOut="_i__wYMTQEeuofKYwmY_N2w _jACzsMTQEeuofKYwmY_N2w _jADawMTQEeuofKYwmY_N2w _jAEB0MTQEeuofKYwmY_N2w _jAEo4MTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_ivWFQMTQEeuofKYwmY_N2w"/>
+    <visualProperties xmi:id="_jAEo6sTQEeuofKYwmY_N2w" position="-428.0,87.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jAEo68TQEeuofKYwmY_N2w" label="+"/>
+    <attributes xmi:id="_jAEo7MTQEeuofKYwmY_N2w" name="frmOsintgram">
+      <modelElement href="HackMeNot.uml#_iy1eIsTQEeuofKYwmY_N2w"/>
+      <stereotypes xmi:id="_jAEo7cTQEeuofKYwmY_N2w" name="LegacyStyledElement">
+        <modelElement href="HackMeNot.uml#_iy2FMMTQEeuofKYwmY_N2w"/>
+      </stereotypes>
+      <visibility xmi:id="_jAEo7sTQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jAEo78TQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_jAEo8MTQEeuofKYwmY_N2w" name="JFrame">
+        <modelElement href="HackMeNot.uml#_iyeRwcTQEeuofKYwmY_N2w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jAEo8cTQEeuofKYwmY_N2w" name="textField">
+      <modelElement href="HackMeNot.uml#_iy2FMcTQEeuofKYwmY_N2w"/>
+      <stereotypes xmi:id="_jAEo8sTQEeuofKYwmY_N2w" name="LegacyStyledElement">
+        <modelElement href="HackMeNot.uml#_iy2FMsTQEeuofKYwmY_N2w"/>
+      </stereotypes>
+      <visibility xmi:id="_jAEo88TQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jAEo9MTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_jAEo9cTQEeuofKYwmY_N2w" name="JTextField">
+        <modelElement href="HackMeNot.uml#_iygG8MTQEeuofKYwmY_N2w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jAEo9sTQEeuofKYwmY_N2w" name="login">
+      <modelElement href="HackMeNot.uml#_iy2sQMTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_jAEo98TQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_jAEo-MTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_jAEo-cTQEeuofKYwmY_N2w" name="LogIn">
+        <modelElement href="HackMeNot.uml#_ivRz0MTQEeuofKYwmY_N2w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jAEo-sTQEeuofKYwmY_N2w" name="pssFieldUser">
+      <modelElement href="HackMeNot.uml#_iy2sQcTQEeuofKYwmY_N2w"/>
+      <stereotypes xmi:id="_jAEo-8TQEeuofKYwmY_N2w" name="LegacyStyledElement">
+        <modelElement href="HackMeNot.uml#_iy2sQsTQEeuofKYwmY_N2w"/>
+      </stereotypes>
+      <visibility xmi:id="_jAEo_MTQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jAEo_cTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_jAEo_sTQEeuofKYwmY_N2w" name="JPasswordField">
+        <modelElement href="HackMeNot.uml#_iyjKQcTQEeuofKYwmY_N2w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jAEo_8TQEeuofKYwmY_N2w" name="txtSetTarget">
+      <modelElement href="HackMeNot.uml#_iy2sQ8TQEeuofKYwmY_N2w"/>
+      <stereotypes xmi:id="_jAEpAMTQEeuofKYwmY_N2w" name="LegacyStyledElement">
+        <modelElement href="HackMeNot.uml#_iy3TUMTQEeuofKYwmY_N2w"/>
+      </stereotypes>
+      <visibility xmi:id="_jAEpAcTQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jAEpAsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_jAEpA8TQEeuofKYwmY_N2w" name="JTextField">
+        <modelElement href="HackMeNot.uml#_iygG8MTQEeuofKYwmY_N2w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jAEpBMTQEeuofKYwmY_N2w" comments="_jAA-gcTQEeuofKYwmY_N2w" targetConnectionVisual="_jAA-gsTQEeuofKYwmY_N2w" name="initialize">
+      <modelElement href="HackMeNot.uml#_ivX6cMTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_jAEpBcTQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_jAEpBsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_jAEpB8TQEeuofKYwmY_N2w" comments="_jABlkMTQEeuofKYwmY_N2w" targetConnectionVisual="_jABlkcTQEeuofKYwmY_N2w" name="LogInWindow">
+      <modelElement href="HackMeNot.uml#_iyop0MTQEeuofKYwmY_N2w"/>
+      <keywords xmi:id="_jAEpCMTQEeuofKYwmY_N2w" keyword="create"/>
+      <visibility xmi:id="_jAEpCcTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_jAEpCsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jAEpC8TQEeuofKYwmY_N2w">
+        <modelElement href="HackMeNot.uml#_iypQ4cTQEeuofKYwmY_N2w"/>
+        <type xmi:id="_jAEpDMTQEeuofKYwmY_N2w" name="LogInWindow">
+          <modelElement href="HackMeNot.uml#_ivWFQMTQEeuofKYwmY_N2w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jAEpDcTQEeuofKYwmY_N2w" name="loginIni">
+        <modelElement href="HackMeNot.uml#_iyop0cTQEeuofKYwmY_N2w"/>
+        <cardinality xmi:id="_jAEpDsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+        <type xmi:id="_jAEpD8TQEeuofKYwmY_N2w" name="LogIn">
+          <modelElement href="HackMeNot.uml#_ivRz0MTQEeuofKYwmY_N2w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i_0xSMTQEeuofKYwmY_N2w" name="LogInController" associationsOut="_i_0KMMTQEeuofKYwmY_N2w">
+    <modelElement href="HackMeNot.uml#_iu6ncMTQEeuofKYwmY_N2w"/>
+    <visualProperties xmi:id="_i_0xScTQEeuofKYwmY_N2w" position="-430.0,269.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i_0xSsTQEeuofKYwmY_N2w" label="+"/>
+    <attributes xmi:id="_i_0xS8TQEeuofKYwmY_N2w" name="file">
+      <modelElement href="HackMeNot.uml#_iyya0MTQEeuofKYwmY_N2w"/>
+      <stereotypes xmi:id="_i_0xTMTQEeuofKYwmY_N2w" name="LegacyStyledElement">
+        <modelElement href="HackMeNot.uml#_iyzB4MTQEeuofKYwmY_N2w"/>
+      </stereotypes>
+      <visibility xmi:id="_i_0xTcTQEeuofKYwmY_N2w" label="-"/>
+      <cardinality xmi:id="_i_0xTsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <type xmi:id="_i_0xT8TQEeuofKYwmY_N2w" name="File">
+        <modelElement href="HackMeNot.uml#_iyPoQMTQEeuofKYwmY_N2w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_i_0xUMTQEeuofKYwmY_N2w" name="getLogin">
+      <modelElement href="HackMeNot.uml#_iu-44MTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_0xUcTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_0xUsTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i_0xU8TQEeuofKYwmY_N2w">
+        <modelElement href="HackMeNot.uml#_iySEgMTQEeuofKYwmY_N2w"/>
+        <type xmi:id="_i_0xVMTQEeuofKYwmY_N2w" name="LogIn">
+          <modelElement href="HackMeNot.uml#_ivRz0MTQEeuofKYwmY_N2w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_i_0xVcTQEeuofKYwmY_N2w" name="readIni">
+      <modelElement href="HackMeNot.uml#_ivAHAMTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_0xVsTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_0xV8TQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i_0xWMTQEeuofKYwmY_N2w">
+        <modelElement href="HackMeNot.uml#_iySEgcTQEeuofKYwmY_N2w"/>
+        <type xmi:id="_i_0xWcTQEeuofKYwmY_N2w" name="LogIn">
+          <modelElement href="HackMeNot.uml#_ivRz0MTQEeuofKYwmY_N2w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_i_0xWsTQEeuofKYwmY_N2w" name="writeIni">
+      <modelElement href="HackMeNot.uml#_iySEgsTQEeuofKYwmY_N2w"/>
+      <visibility xmi:id="_i_0xW8TQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_0xXMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i_0xXcTQEeuofKYwmY_N2w">
+        <modelElement href="HackMeNot.uml#_iySEhMTQEeuofKYwmY_N2w"/>
+        <type xmi:id="_i_0xXsTQEeuofKYwmY_N2w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_i_0xX8TQEeuofKYwmY_N2w" name="login">
+        <modelElement href="HackMeNot.uml#_iySEg8TQEeuofKYwmY_N2w"/>
+        <cardinality xmi:id="_i_0xYMTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+        <type xmi:id="_i_0xYcTQEeuofKYwmY_N2w" name="LogIn">
+          <modelElement href="HackMeNot.uml#_ivRz0MTQEeuofKYwmY_N2w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_i_0xYsTQEeuofKYwmY_N2w" name="LogInController">
+      <modelElement href="HackMeNot.uml#_iyuJYMTQEeuofKYwmY_N2w"/>
+      <keywords xmi:id="_i_0xY8TQEeuofKYwmY_N2w" keyword="create"/>
+      <visibility xmi:id="_i_0xZMTQEeuofKYwmY_N2w" label="+"/>
+      <cardinality xmi:id="_i_0xZcTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i_0xZsTQEeuofKYwmY_N2w">
+        <modelElement href="HackMeNot.uml#_iyuwc8TQEeuofKYwmY_N2w"/>
+        <type xmi:id="_i_0xZ8TQEeuofKYwmY_N2w" name="LogInController">
+          <modelElement href="HackMeNot.uml#_iu6ncMTQEeuofKYwmY_N2w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_i_0xaMTQEeuofKYwmY_N2w" name="file">
+        <modelElement href="HackMeNot.uml#_iyuwcMTQEeuofKYwmY_N2w"/>
+        <cardinality xmi:id="_i_0xacTQEeuofKYwmY_N2w" label="1" max="1" min="1"/>
+        <type xmi:id="_i_0xasTQEeuofKYwmY_N2w" name="File">
+          <modelElement href="HackMeNot.uml#_iyPoQMTQEeuofKYwmY_N2w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i_30kcTQEeuofKYwmY_N2w" comments="_i_3NgMTQEeuofKYwmY_N2w" targetConnectionVisual="_i_30kMTQEeuofKYwmY_N2w" name="Main">
+    <modelElement href="HackMeNot.uml#_ivRMwMTQEeuofKYwmY_N2w"/>
+    <visualProperties xmi:id="_i_30ksTQEeuofKYwmY_N2w" position="-303.0,434.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i_30k8TQEeuofKYwmY_N2w" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i_xt8MTQEeuofKYwmY_N2w" name="IOException">
+    <modelElement href="HackMeNot.uml#_iyVu4MTQEeuofKYwmY_N2w"/>
+    <visualProperties xmi:id="_i_xt8cTQEeuofKYwmY_N2w" position="-224.0,434.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_i_xt8sTQEeuofKYwmY_N2w" name="Reference">
+      <modelElement href="HackMeNot.uml#_iyWV8MTQEeuofKYwmY_N2w"/>
+    </stereotypes>
+    <visibility xmi:id="_i_xt88TQEeuofKYwmY_N2w" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

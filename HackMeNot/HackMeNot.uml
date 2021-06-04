@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_iTGOIMTQEeuofKYwmY_N2w" name="HackMeNot">
+    <eAnnotations xmi:id="_ioVeUMTQEeuofKYwmY_N2w" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_ioVeUcTQEeuofKYwmY_N2w" source="codegen">
+        <details xmi:id="_ioVeUsTQEeuofKYwmY_N2w" key="codegenDirectory" value="/HackMeNot/src"/>
+        <details xmi:id="_i-Ym0MTQEeuofKYwmY_N2w" key="AssociatedSourceCode" value="/HackMeNot/src/controller/LogInController.java;1111628564/1;/HackMeNot/src/controller/Main.java;3996431255/1;/HackMeNot/src/controller/OsintgramController.java;2364686937/1;/HackMeNot/src/controller/ToolsWindowsController.java;2936940907/1;/HackMeNot/src/main/Main.java;2612229308/1;/HackMeNot/src/model/LogIn.java;2157277201/1;/HackMeNot/src/view/LogInWindow.java;1387931410/1;/HackMeNot/src/view/ToolsWindows.java;2034137979/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_iuQgIMTQEeuofKYwmY_N2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_iuRHMMTQEeuofKYwmY_N2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_iuRHMcTQEeuofKYwmY_N2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_iuRHMsTQEeuofKYwmY_N2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_iuRHM8TQEeuofKYwmY_N2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_iuRHNMTQEeuofKYwmY_N2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_iuRHNcTQEeuofKYwmY_N2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_iuRuQMTQEeuofKYwmY_N2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_iuSVUMTQEeuofKYwmY_N2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_iuVYoMTQEeuofKYwmY_N2w" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_iuV_sMTQEeuofKYwmY_N2w" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyPoQMTQEeuofKYwmY_N2w" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iySrkMTQEeuofKYwmY_N2w" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyT5sMTQEeuofKYwmY_N2w" name="InputStreamReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyVu4MTQEeuofKYwmY_N2w" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyZZQMTQEeuofKYwmY_N2w" name="BufferedInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyanYMTQEeuofKYwmY_N2w" name="InputStream"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_iujbEMTQEeuofKYwmY_N2w" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_iukCIMTQEeuofKYwmY_N2w" name="image">
+          <packagedElement xmi:type="uml:Class" xmi:id="_iyWV8cTQEeuofKYwmY_N2w" name="BufferStrategy"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_iyW9AcTQEeuofKYwmY_N2w" name="DataBufferInt"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_iuw2cMTQEeuofKYwmY_N2w" name="event">
+          <packagedElement xmi:type="uml:Class" xmi:id="_iyjxUcTQEeuofKYwmY_N2w" name="MouseAdapter"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_iykYYcTQEeuofKYwmY_N2w" name="MouseEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_iym0ocTQEeuofKYwmY_N2w" name="ActionListener"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_iynbscTQEeuofKYwmY_N2w" name="ActionEvent"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iydqsMTQEeuofKYwmY_N2w" name="EventQueue"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyrGEcTQEeuofKYwmY_N2w" name="Color"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyrGE8TQEeuofKYwmY_N2w" name="Button"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_iyvXgMTQEeuofKYwmY_N2w" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyvXgcTQEeuofKYwmY_N2w" name="Process"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_iuWmwMTQEeuofKYwmY_N2w" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_iuXN0MTQEeuofKYwmY_N2w" name="ini4j"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_iuYb8MTQEeuofKYwmY_N2w" name="model">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ivRz0MTQEeuofKYwmY_N2w" name="LogIn">
+        <ownedAttribute xmi:id="_iy03EsTQEeuofKYwmY_N2w" name="username">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_iy1eIMTQEeuofKYwmY_N2w" name="password">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_iy1eIcTQEeuofKYwmY_N2w" name="target">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izGj4cTQEeuofKYwmY_N2w" name="LogIn" specification="_ivUQEMTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_izGj4sTQEeuofKYwmY_N2w" name="username">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_izGj48TQEeuofKYwmY_N2w" name="password">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_izGj5MTQEeuofKYwmY_N2w" name="target">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_izGj5cTQEeuofKYwmY_N2w" type="_ivRz0MTQEeuofKYwmY_N2w" direction="return"/>
+          <language>java</language>
+          <body>this.username = username;&#xD;
+		this.password = password;&#xD;
+		this.target = target;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ivTB8MTQEeuofKYwmY_N2w" name="LogIn">
+          <eAnnotations xmi:id="_ivTB8cTQEeuofKYwmY_N2w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_ivTpAMTQEeuofKYwmY_N2w" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_ivTpAsTQEeuofKYwmY_N2w" type="_ivRz0MTQEeuofKYwmY_N2w" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ivUQEMTQEeuofKYwmY_N2w" name="LogIn" method="_izGj4cTQEeuofKYwmY_N2w">
+          <eAnnotations xmi:id="_ivU3I8TQEeuofKYwmY_N2w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_ivU3JMTQEeuofKYwmY_N2w" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_ivU3IMTQEeuofKYwmY_N2w" name="username">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ivU3IcTQEeuofKYwmY_N2w" name="password">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ivU3IsTQEeuofKYwmY_N2w" name="target">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ivU3JcTQEeuofKYwmY_N2w" type="_ivRz0MTQEeuofKYwmY_N2w" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_iuZDAMTQEeuofKYwmY_N2w" name="view">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ivWFQMTQEeuofKYwmY_N2w" name="LogInWindow">
+        <ownedAttribute xmi:id="_iy1eIsTQEeuofKYwmY_N2w" name="frmOsintgram" visibility="private" type="_iyeRwcTQEeuofKYwmY_N2w" association="_izOfscTQEeuofKYwmY_N2w"/>
+        <ownedAttribute xmi:id="_iy2FMcTQEeuofKYwmY_N2w" name="textField" visibility="private" type="_iygG8MTQEeuofKYwmY_N2w" association="_izPGwMTQEeuofKYwmY_N2w"/>
+        <ownedAttribute xmi:id="_iy2sQMTQEeuofKYwmY_N2w" name="login" type="_ivRz0MTQEeuofKYwmY_N2w" isReadOnly="true" association="_izPGw8TQEeuofKYwmY_N2w"/>
+        <ownedAttribute xmi:id="_iy2sQcTQEeuofKYwmY_N2w" name="pssFieldUser" visibility="private" type="_iyjKQcTQEeuofKYwmY_N2w" association="_izPt0cTQEeuofKYwmY_N2w"/>
+        <ownedAttribute xmi:id="_iy2sQ8TQEeuofKYwmY_N2w" name="txtSetTarget" visibility="private" type="_iygG8MTQEeuofKYwmY_N2w" association="_izQU4cTQEeuofKYwmY_N2w"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izHK8MTQEeuofKYwmY_N2w" name="LogInWindow" specification="_iyop0MTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_izHK8cTQEeuofKYwmY_N2w" name="loginIni" type="_ivRz0MTQEeuofKYwmY_N2w"/>
+          <ownedParameter xmi:id="_izHK8sTQEeuofKYwmY_N2w" type="_ivWFQMTQEeuofKYwmY_N2w" direction="return"/>
+          <language>java</language>
+          <body>login = new LogIn();&#xD;
+     if (loginIni != null) {&#xD;
+         login = loginIni;&#xD;
+     }&#xD;
+     initialize();&#xD;
+&#xD;
+     textField.setText(login.getUsername());&#xD;
+     pssFieldUser.setText(login.getPassword());&#xD;
+     frmOsintgram.setVisible(true);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izHK88TQEeuofKYwmY_N2w" name="initialize" specification="_ivX6cMTQEeuofKYwmY_N2w">
+          <language>java</language>
+          <body>frmOsintgram = new JFrame();&#xD;
+     frmOsintgram.setTitle(&quot;Osintgram&quot;);&#xD;
+     frmOsintgram.setResizable(false);&#xD;
+     frmOsintgram.setBounds(100, 100, 578, 468);&#xD;
+     frmOsintgram.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+     frmOsintgram.getContentPane().setLayout(null);&#xD;
+&#xD;
+     JPanel panel = new JPanel();&#xD;
+     panel.setBounds(151, 73, 276, 301);&#xD;
+     frmOsintgram.getContentPane().add(panel);&#xD;
+     panel.setLayout(null);&#xD;
+&#xD;
+     textField = new JTextField();&#xD;
+     textField.setToolTipText(&quot;Insert your ig username.&quot;);&#xD;
+     textField.setBounds(10, 42, 256, 20);&#xD;
+     panel.add(textField);&#xD;
+     textField.setColumns(10);&#xD;
+&#xD;
+     JLabel lblSaveUser = new JLabel(&quot;Insert your username:&quot;);&#xD;
+     lblSaveUser.setBounds(10, 11, 256, 20);&#xD;
+     panel.add(lblSaveUser);&#xD;
+&#xD;
+     JLabel lblSavePassword = new JLabel(&quot;Insert your password:&quot;);&#xD;
+     lblSavePassword.setBounds(10, 73, 256, 14);&#xD;
+     panel.add(lblSavePassword);&#xD;
+&#xD;
+     JButton btnLogIn = new JButton(&quot;Log In&quot;);&#xD;
+     btnLogIn.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+&#xD;
+             login.setUsername(textField.getText());&#xD;
+             login.setPassword(pssFieldUser.getText());&#xD;
+             login.setTarget(txtSetTarget.getText());&#xD;
+             &#xD;
+             OsintgramController osin = new OsintgramController(login);&#xD;
+&#xD;
+             if (osin.start()) {&#xD;
+                 System.out.println(&quot;Start&quot;);&#xD;
+                 System.out.println(osin.getLastOutput());&#xD;
+             } else {&#xD;
+                 System.out.println(&quot;Error al iniciar osintgram.&quot;);&#xD;
+                 JOptionPane.showMessageDialog(null, osin.getLastOutput(),&#xD;
+                     &quot;Loging Error&quot;, JOptionPane.ERROR_MESSAGE);&#xD;
+             }&#xD;
+&#xD;
+             frmOsintgram.dispose();&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     btnLogIn.setBounds(90, 254, 89, 23);&#xD;
+     panel.add(btnLogIn);&#xD;
+&#xD;
+     pssFieldUser = new JPasswordField();&#xD;
+     pssFieldUser.setBounds(10, 98, 256, 20);&#xD;
+     panel.add(pssFieldUser);&#xD;
+&#xD;
+     JLabel lblSetTarget = new JLabel(&quot;Insert the target username:&quot;);&#xD;
+     lblSetTarget.setBounds(10, 129, 256, 14);&#xD;
+     panel.add(lblSetTarget);&#xD;
+&#xD;
+     txtSetTarget = new JTextField();&#xD;
+     txtSetTarget.setBounds(10, 154, 256, 20);&#xD;
+     panel.add(txtSetTarget);&#xD;
+     txtSetTarget.setColumns(10);&#xD;
+&#xD;
+     JLabel lblLoginSign = new JLabel(&quot;Instagram Log In&quot;);&#xD;
+     lblLoginSign.setHorizontalAlignment(SwingConstants.CENTER);&#xD;
+     lblLoginSign.setBounds(151, 48, 276, 14);&#xD;
+     frmOsintgram.getContentPane().add(lblLoginSign);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ivX6cMTQEeuofKYwmY_N2w" name="initialize" visibility="private" method="_izHK88TQEeuofKYwmY_N2w">
+          <ownedComment xmi:id="_izIZE8TQEeuofKYwmY_N2w">
+            <body>Initialize the contents of the frame.</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_iyop0MTQEeuofKYwmY_N2w" name="LogInWindow" method="_izHK8MTQEeuofKYwmY_N2w">
+          <eAnnotations xmi:id="_iyop0sTQEeuofKYwmY_N2w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_iypQ4MTQEeuofKYwmY_N2w" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_izIZEsTQEeuofKYwmY_N2w">
+            <body>Create the application.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_iyop0cTQEeuofKYwmY_N2w" name="loginIni" type="_ivRz0MTQEeuofKYwmY_N2w"/>
+          <ownedParameter xmi:id="_iypQ4cTQEeuofKYwmY_N2w" type="_ivWFQMTQEeuofKYwmY_N2w" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_iva9wMTQEeuofKYwmY_N2w" name="ToolsWindows">
+        <ownedAttribute xmi:id="_iy3TUcTQEeuofKYwmY_N2w" name="frmOsintgram" visibility="private" type="_iyeRwcTQEeuofKYwmY_N2w" association="_izQ78cTQEeuofKYwmY_N2w"/>
+        <ownedAttribute xmi:id="_iy36YcTQEeuofKYwmY_N2w" name="osint" visibility="private" type="_ivE_gMTQEeuofKYwmY_N2w" association="_izRjAcTQEeuofKYwmY_N2w"/>
+        <ownedAttribute xmi:id="_iy4hcMTQEeuofKYwmY_N2w" name="tools" visibility="private" type="_ivLGIMTQEeuofKYwmY_N2w" association="_izRjBMTQEeuofKYwmY_N2w"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izHK9MTQEeuofKYwmY_N2w" name="ToolsWindows" specification="_iysUMcTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_izHK9cTQEeuofKYwmY_N2w" name="osint" type="_ivE_gMTQEeuofKYwmY_N2w"/>
+          <ownedParameter xmi:id="_izHyAMTQEeuofKYwmY_N2w" type="_iva9wMTQEeuofKYwmY_N2w" direction="return"/>
+          <language>java</language>
+          <body>this.osint = osint;&#xD;
+		this.tools = new ToolsWindowsController(osint);&#xD;
+		initialize();&#xD;
+		frmOsintgram.setVisible(true);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izHyAcTQEeuofKYwmY_N2w" name="initialize" specification="_ivcy8MTQEeuofKYwmY_N2w">
+          <language>java</language>
+          <body>frmOsintgram = new JFrame();&#xD;
+		frmOsintgram.setTitle(&quot;Osintgram&quot;);&#xD;
+		frmOsintgram.setResizable(false);&#xD;
+		frmOsintgram.setBounds(100, 100, 711, 541);&#xD;
+		frmOsintgram.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+		frmOsintgram.getContentPane().setLayout(null);&#xD;
+&#xD;
+		JPanel userInfoPanel = new JPanel();&#xD;
+		userInfoPanel.setBounds(10, 11, 248, 476);&#xD;
+		frmOsintgram.getContentPane().add(userInfoPanel);&#xD;
+		userInfoPanel.setLayout(null);&#xD;
+&#xD;
+		JLabel userInfoTitleLabel = new JLabel(&quot;User Information&quot;);&#xD;
+		userInfoTitleLabel.setBounds(10, 11, 205, 14);&#xD;
+		userInfoPanel.add(userInfoTitleLabel);&#xD;
+&#xD;
+		JScrollPane userInfoScrollPanel = new JScrollPane();&#xD;
+		userInfoScrollPanel.setBounds(10, 36, 228, 429);&#xD;
+		userInfoPanel.add(userInfoScrollPanel);&#xD;
+&#xD;
+		JTextArea txtUserInfo = new JTextArea();&#xD;
+		userInfoScrollPanel.setViewportView(txtUserInfo);&#xD;
+		txtUserInfo.setForeground(Color.WHITE);&#xD;
+		txtUserInfo.setBackground(Color.BLACK);&#xD;
+		try {&#xD;
+			txtUserInfo.setText(tools.getUserInfo());&#xD;
+		} catch (IOException e1) {&#xD;
+			e1.printStackTrace();&#xD;
+		}&#xD;
+&#xD;
+		JPanel userOptionsPanel = new JPanel();&#xD;
+		userOptionsPanel.setBounds(268, 11, 427, 476);&#xD;
+		frmOsintgram.getContentPane().add(userOptionsPanel);&#xD;
+		userOptionsPanel.setLayout(null);&#xD;
+&#xD;
+		JLabel userControllsLabel = new JLabel(&quot;Target Options&quot;);&#xD;
+		userControllsLabel.setBounds(10, 11, 128, 14);&#xD;
+		userOptionsPanel.add(userControllsLabel);&#xD;
+&#xD;
+		JButton btnDownloadImages = new JButton(&quot;Download All Images&quot;);&#xD;
+		btnDownloadImages.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+				try {&#xD;
+					tools.downloadImages();&#xD;
+				} catch (IOException e1) {&#xD;
+					e1.printStackTrace();&#xD;
+				}&#xD;
+			}&#xD;
+		});&#xD;
+&#xD;
+		btnDownloadImages.setBounds(10, 36, 192, 49);&#xD;
+		userOptionsPanel.add(btnDownloadImages);&#xD;
+&#xD;
+		JButton btnDownloadPFP = new JButton(&quot;Download Profile Picture&quot;);&#xD;
+		btnDownloadPFP.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+&#xD;
+				tools.downloadProPic();&#xD;
+			}&#xD;
+		});&#xD;
+		btnDownloadPFP.addMouseListener(new MouseAdapter() {&#xD;
+			@Override&#xD;
+			public void mouseClicked(MouseEvent e) {&#xD;
+				tools.downloadProPic();&#xD;
+			}&#xD;
+		});&#xD;
+		btnDownloadPFP.setBounds(212, 36, 205, 49);&#xD;
+		userOptionsPanel.add(btnDownloadPFP);&#xD;
+&#xD;
+		JButton btnShowComments = new JButton(&quot;Show All Coments&quot;);&#xD;
+		btnShowComments.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+				&#xD;
+				tools.showAllComments();&#xD;
+			}&#xD;
+		});&#xD;
+		btnShowComments.setBounds(10, 96, 192, 49);&#xD;
+		userOptionsPanel.add(btnShowComments);&#xD;
+&#xD;
+		JButton btnShowAllTagged = new JButton(&quot;Show All Tagged Pics&quot;);&#xD;
+		btnShowAllTagged.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+&#xD;
+				tools.showAllTagged();&#xD;
+&#xD;
+			}&#xD;
+		});&#xD;
+		btnShowAllTagged.setBounds(212, 96, 205, 49);&#xD;
+		userOptionsPanel.add(btnShowAllTagged);&#xD;
+&#xD;
+		JButton btnShowAllFollowing = new JButton(&quot;Show All People Followed By Target&quot;);&#xD;
+		btnShowAllFollowing.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+&#xD;
+				tools.seeAllFollowing();&#xD;
+&#xD;
+			}&#xD;
+		});&#xD;
+		btnShowAllFollowing.setBounds(10, 156, 407, 49);&#xD;
+		userOptionsPanel.add(btnShowAllFollowing);&#xD;
+&#xD;
+		JButton btnShowFollowedEmail = new JButton(&quot;Show Email&quot;);&#xD;
+		btnShowFollowedEmail.addMouseListener(new MouseAdapter() {&#xD;
+			@Override&#xD;
+			public void mouseClicked(MouseEvent e) {&#xD;
+				tools.seeFollowingMails();&#xD;
+			}&#xD;
+		});&#xD;
+		btnShowFollowedEmail.setToolTipText(&quot;Show email from followed people&quot;);&#xD;
+		btnShowFollowedEmail.setBounds(10, 216, 192, 49);&#xD;
+		userOptionsPanel.add(btnShowFollowedEmail);&#xD;
+&#xD;
+		JButton btnShowPhoneFromFollowed = new JButton(&quot;Show Phone&quot;);&#xD;
+		btnShowPhoneFromFollowed.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) {&#xD;
+			}&#xD;
+		});&#xD;
+		btnShowPhoneFromFollowed.setToolTipText(&quot;show phone number&quot;);&#xD;
+		btnShowPhoneFromFollowed.setBounds(212, 216, 205, 49);&#xD;
+		userOptionsPanel.add(btnShowPhoneFromFollowed);&#xD;
+&#xD;
+		JButton btnNewButton = new JButton(&quot;Show All People Following Target&quot;);&#xD;
+		btnNewButton.setBounds(10, 276, 407, 49);&#xD;
+		userOptionsPanel.add(btnNewButton);&#xD;
+&#xD;
+		JButton btnShowEmailFollowing = new JButton(&quot;Show Email&quot;);&#xD;
+		btnShowEmailFollowing.setBounds(10, 336, 192, 49);&#xD;
+		userOptionsPanel.add(btnShowEmailFollowing);&#xD;
+&#xD;
+		JButton btnShowPhoneFromFollowing = new JButton(&quot;Show Phone&quot;);&#xD;
+		btnShowPhoneFromFollowing.setToolTipText(&quot;show phone number&quot;);&#xD;
+		btnShowPhoneFromFollowing.setBounds(212, 336, 205, 49);&#xD;
+		userOptionsPanel.add(btnShowPhoneFromFollowing);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ivcy8MTQEeuofKYwmY_N2w" name="initialize" visibility="private" method="_izHyAcTQEeuofKYwmY_N2w">
+          <ownedComment xmi:id="_izIZFcTQEeuofKYwmY_N2w">
+            <body>Initialize the contents of the frame.</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_iysUMcTQEeuofKYwmY_N2w" name="ToolsWindows" method="_izHK9MTQEeuofKYwmY_N2w">
+          <eAnnotations xmi:id="_iys7QcTQEeuofKYwmY_N2w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_iys7QsTQEeuofKYwmY_N2w" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_izIZFMTQEeuofKYwmY_N2w">
+            <body>Create the application.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_iys7QMTQEeuofKYwmY_N2w" name="osint" type="_ivE_gMTQEeuofKYwmY_N2w"/>
+          <ownedParameter xmi:id="_iys7Q8TQEeuofKYwmY_N2w" type="_iva9wMTQEeuofKYwmY_N2w" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_izOfscTQEeuofKYwmY_N2w" name="" memberEnd="_izOfssTQEeuofKYwmY_N2w _iy1eIsTQEeuofKYwmY_N2w">
+        <ownedEnd xmi:id="_izOfssTQEeuofKYwmY_N2w" name="" type="_ivWFQMTQEeuofKYwmY_N2w" association="_izOfscTQEeuofKYwmY_N2w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_izPGwMTQEeuofKYwmY_N2w" name="" memberEnd="_izPGwcTQEeuofKYwmY_N2w _iy2FMcTQEeuofKYwmY_N2w">
+        <ownedEnd xmi:id="_izPGwcTQEeuofKYwmY_N2w" name="" type="_ivWFQMTQEeuofKYwmY_N2w" association="_izPGwMTQEeuofKYwmY_N2w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_izPGw8TQEeuofKYwmY_N2w" name="" memberEnd="_izPGxMTQEeuofKYwmY_N2w _iy2sQMTQEeuofKYwmY_N2w">
+        <ownedEnd xmi:id="_izPGxMTQEeuofKYwmY_N2w" name="" type="_ivWFQMTQEeuofKYwmY_N2w" association="_izPGw8TQEeuofKYwmY_N2w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_izPt0cTQEeuofKYwmY_N2w" name="" memberEnd="_izPt0sTQEeuofKYwmY_N2w _iy2sQcTQEeuofKYwmY_N2w">
+        <ownedEnd xmi:id="_izPt0sTQEeuofKYwmY_N2w" name="" type="_ivWFQMTQEeuofKYwmY_N2w" association="_izPt0cTQEeuofKYwmY_N2w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_izQU4cTQEeuofKYwmY_N2w" name="" memberEnd="_izQU4sTQEeuofKYwmY_N2w _iy2sQ8TQEeuofKYwmY_N2w">
+        <ownedEnd xmi:id="_izQU4sTQEeuofKYwmY_N2w" name="" type="_ivWFQMTQEeuofKYwmY_N2w" association="_izQU4cTQEeuofKYwmY_N2w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_izQ78cTQEeuofKYwmY_N2w" name="" memberEnd="_izQ78sTQEeuofKYwmY_N2w _iy3TUcTQEeuofKYwmY_N2w">
+        <ownedEnd xmi:id="_izQ78sTQEeuofKYwmY_N2w" name="" type="_iva9wMTQEeuofKYwmY_N2w" association="_izQ78cTQEeuofKYwmY_N2w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_izRjAcTQEeuofKYwmY_N2w" name="" memberEnd="_izRjAsTQEeuofKYwmY_N2w _iy36YcTQEeuofKYwmY_N2w">
+        <ownedEnd xmi:id="_izRjAsTQEeuofKYwmY_N2w" name="" type="_iva9wMTQEeuofKYwmY_N2w" association="_izRjAcTQEeuofKYwmY_N2w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_izRjBMTQEeuofKYwmY_N2w" name="" memberEnd="_izRjBcTQEeuofKYwmY_N2w _iy4hcMTQEeuofKYwmY_N2w">
+        <ownedEnd xmi:id="_izRjBcTQEeuofKYwmY_N2w" name="" type="_iva9wMTQEeuofKYwmY_N2w" association="_izRjBMTQEeuofKYwmY_N2w"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_iud7gMTQEeuofKYwmY_N2w" name="controller">
+      <packagedElement xmi:type="uml:Class" xmi:id="_iu6ncMTQEeuofKYwmY_N2w" name="LogInController">
+        <ownedAttribute xmi:id="_iyya0MTQEeuofKYwmY_N2w" name="file" visibility="private" type="_iyPoQMTQEeuofKYwmY_N2w" association="_izMDcMTQEeuofKYwmY_N2w"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_iy_PIMTQEeuofKYwmY_N2w" name="LogInController" specification="_iyuJYMTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_iy_2MMTQEeuofKYwmY_N2w" name="file" type="_iyPoQMTQEeuofKYwmY_N2w"/>
+          <ownedParameter xmi:id="_iy_2McTQEeuofKYwmY_N2w" type="_iu6ncMTQEeuofKYwmY_N2w" direction="return"/>
+          <language>java</language>
+          <body>this.file = file;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izC5gMTQEeuofKYwmY_N2w" name="getLogin" specification="_iu-44MTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_izC5gcTQEeuofKYwmY_N2w" type="_ivRz0MTQEeuofKYwmY_N2w" direction="return"/>
+          <language>java</language>
+          <body>LogIn login = this.readIni();&#xD;
+     LogInWindow window = new LogInWindow(login);&#xD;
+     login = window.getLogin();&#xD;
+&#xD;
+     return login;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izC5gsTQEeuofKYwmY_N2w" name="readIni" specification="_ivAHAMTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_izC5g8TQEeuofKYwmY_N2w" type="_ivRz0MTQEeuofKYwmY_N2w" direction="return"/>
+          <language>java</language>
+          <body>LogIn login = null;&#xD;
+     try {&#xD;
+         Wini ini = new Wini(file);&#xD;
+         String user = ini.get(&quot;Credentials&quot;, &quot;username&quot;);&#xD;
+         String passw = ini.get(&quot;Credentials&quot;, &quot;password&quot;);&#xD;
+&#xD;
+         login = new LogIn(user, passw, null);&#xD;
+     } catch (Exception e) {&#xD;
+         System.err.println(e.getMessage());&#xD;
+     }&#xD;
+     return login;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izC5hMTQEeuofKYwmY_N2w" name="writeIni" specification="_iySEgsTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_izC5hcTQEeuofKYwmY_N2w" name="login" type="_ivRz0MTQEeuofKYwmY_N2w"/>
+          <ownedParameter xmi:id="_izC5hsTQEeuofKYwmY_N2w" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>try {&#xD;
+         Wini ini = new Wini(file);&#xD;
+         ini.put(&quot;Credentials&quot;, &quot;username&quot;, login.getUsername());&#xD;
+         ini.put(&quot;Credentials&quot;, &quot;password&quot;, login.getPassword());&#xD;
+         return true;&#xD;
+     } catch (Exception e) {&#xD;
+         System.err.println(e.getMessage());&#xD;
+     }&#xD;
+     return false;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_iu-44MTQEeuofKYwmY_N2w" name="getLogin" method="_izC5gMTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_iySEgMTQEeuofKYwmY_N2w" type="_ivRz0MTQEeuofKYwmY_N2w" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ivAHAMTQEeuofKYwmY_N2w" name="readIni" method="_izC5gsTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_iySEgcTQEeuofKYwmY_N2w" type="_ivRz0MTQEeuofKYwmY_N2w" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_iySEgsTQEeuofKYwmY_N2w" name="writeIni" method="_izC5hMTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_iySEg8TQEeuofKYwmY_N2w" name="login" type="_ivRz0MTQEeuofKYwmY_N2w"/>
+          <ownedParameter xmi:id="_iySEhMTQEeuofKYwmY_N2w" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_iyuJYMTQEeuofKYwmY_N2w" name="LogInController" method="_iy_PIMTQEeuofKYwmY_N2w">
+          <eAnnotations xmi:id="_iyuwccTQEeuofKYwmY_N2w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_iyuwcsTQEeuofKYwmY_N2w" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_iyuwcMTQEeuofKYwmY_N2w" name="file" type="_iyPoQMTQEeuofKYwmY_N2w"/>
+          <ownedParameter xmi:id="_iyuwc8TQEeuofKYwmY_N2w" type="_iu6ncMTQEeuofKYwmY_N2w" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ivDKUMTQEeuofKYwmY_N2w" name="Main">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izDgkMTQEeuofKYwmY_N2w" name="main" specification="_ivDxYMTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_izDgkcTQEeuofKYwmY_N2w" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_izDgksTQEeuofKYwmY_N2w" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>File iniFile = new File(&quot;config/credentials.ini&quot;);&#xD;
+&#xD;
+     // Obtenemos los datos de login antes de iniciar el programa&#xD;
+     LogInController loginController = new LogInController(iniFile);&#xD;
+     LogIn login = loginController.getLogin();&#xD;
+&#xD;
+     if (loginController.writeIni(login)) {&#xD;
+         System.out.println(&quot;Guardado datos de login&quot;);&#xD;
+     } else {&#xD;
+         System.out.println(&quot;Error al introducir credenciales.&quot;);&#xD;
+     }&#xD;
+&#xD;
+&#xD;
+     /*&#xD;
+     OsintgramController osin = new OsintgramController(new LogIn(&quot;&quot;, &quot;&quot;, &quot;algo&quot;));&#xD;
+&#xD;
+     System.out.println(&quot;Start: &quot; + osin.start());&#xD;
+&#xD;
+     System.out.println(osin.getLastOutput());&#xD;
+      */&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ivDxYMTQEeuofKYwmY_N2w" name="main" isStatic="true" method="_izDgkMTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_ivEYcMTQEeuofKYwmY_N2w" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ivEYccTQEeuofKYwmY_N2w" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ivE_gMTQEeuofKYwmY_N2w" name="OsintgramController">
+        <ownedAttribute xmi:id="_iyzB4cTQEeuofKYwmY_N2w" name="OUTPUT_FILE" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_iyzo8MTQEeuofKYwmY_N2w" value="&quot;output.txt&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_iyzo8cTQEeuofKYwmY_N2w" name="COMMAND" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_iyzo8sTQEeuofKYwmY_N2w" value="&quot;python main.py &quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_iyzo88TQEeuofKYwmY_N2w" name="CLIENT_ERROR" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_iyzo9MTQEeuofKYwmY_N2w" value="&quot;ClientError&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_iyzo9cTQEeuofKYwmY_N2w" name="process" visibility="private" type="_iyvXgcTQEeuofKYwmY_N2w" association="_izNRkMTQEeuofKYwmY_N2w"/>
+        <ownedAttribute xmi:id="_iy0QAcTQEeuofKYwmY_N2w" name="login" visibility="private" type="_ivRz0MTQEeuofKYwmY_N2w" association="_izN4oMTQEeuofKYwmY_N2w"/>
+        <ownedAttribute xmi:id="_iy0QA8TQEeuofKYwmY_N2w" name="lastOutput" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izDgk8TQEeuofKYwmY_N2w" name="OsintgramController" specification="_iyYLIMTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_izDglMTQEeuofKYwmY_N2w" name="login" type="_ivRz0MTQEeuofKYwmY_N2w"/>
+          <ownedParameter xmi:id="_izDglcTQEeuofKYwmY_N2w" type="_ivE_gMTQEeuofKYwmY_N2w" direction="return"/>
+          <language>java</language>
+          <body>this.login = login;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izEHoMTQEeuofKYwmY_N2w" name="start" specification="_ivG0sMTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_izEHocTQEeuofKYwmY_N2w" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>try {&#xD;
+			// process = Runtime.getRuntime().exec(COMMAND);//startOsintgram.start();&#xD;
+			ProcessBuilder pb = new ProcessBuilder(&quot;python.exe&quot;, &quot;Osintgram\\main.py&quot;, login.getTarget());&#xD;
+			// pb.redirectOutput(new File(OUTPUT_FILE));&#xD;
+			process = pb.start();&#xD;
+&#xD;
+			String connection = readOutput();&#xD;
+			if (connection.contains(CLIENT_ERROR))&#xD;
+				return false;&#xD;
+			return true;&#xD;
+		} catch (Exception e) {&#xD;
+			System.out.println(e.getMessage());&#xD;
+			return false;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izEHosTQEeuofKYwmY_N2w" name="sendCommand" specification="_ivHbwMTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_izEHo8TQEeuofKYwmY_N2w" name="command">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_izEHpMTQEeuofKYwmY_N2w" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>try {&#xD;
+			process.waitFor();&#xD;
+			BufferedWriter buffer = new BufferedWriter(new OutputStreamWriter(process.getOutputStream()));&#xD;
+			buffer.write(command);&#xD;
+			return true;&#xD;
+		} catch (Exception e) {&#xD;
+			System.out.println(e.getMessage());&#xD;
+		}&#xD;
+		return false;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izEHpcTQEeuofKYwmY_N2w" name="readOutput" specification="_ivIC0MTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_izEHpsTQEeuofKYwmY_N2w" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String cadena = &quot;&quot;;&#xD;
+		try {&#xD;
+			// process.waitFor();&#xD;
+			BufferedReader buffer = new BufferedReader(new InputStreamReader(process.getInputStream()));&#xD;
+&#xD;
+			String linea;&#xD;
+			while ((linea = buffer.readLine()) != null) {&#xD;
+				cadena += linea + System.lineSeparator();&#xD;
+			}&#xD;
+&#xD;
+		} catch (Exception e) {&#xD;
+			System.out.println(e.getMessage());&#xD;
+		}&#xD;
+		lastOutput = cadena;&#xD;
+		return cadena;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izEusMTQEeuofKYwmY_N2w" name="downloadImages" specification="_ivIC0sTQEeuofKYwmY_N2w">
+          <language>java</language>
+          <body>try {&#xD;
+			String[] cmd = { &quot;photos&quot; };&#xD;
+			Runtime.getRuntime().exec(cmd);&#xD;
+		} catch (IOException ioe) {&#xD;
+			System.out.println(ioe);&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ivG0sMTQEeuofKYwmY_N2w" name="start" method="_izEHoMTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_ivG0scTQEeuofKYwmY_N2w" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ivHbwMTQEeuofKYwmY_N2w" name="sendCommand" method="_izEHosTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_ivHbwcTQEeuofKYwmY_N2w" name="command">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ivHbwsTQEeuofKYwmY_N2w" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ivIC0MTQEeuofKYwmY_N2w" name="readOutput" method="_izEHpcTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_ivIC0cTQEeuofKYwmY_N2w" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ivIC0sTQEeuofKYwmY_N2w" name="downloadImages" method="_izEusMTQEeuofKYwmY_N2w"/>
+        <ownedOperation xmi:id="_iyYLIMTQEeuofKYwmY_N2w" name="OsintgramController" method="_izDgk8TQEeuofKYwmY_N2w">
+          <eAnnotations xmi:id="_iyYyMMTQEeuofKYwmY_N2w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_iyYyMcTQEeuofKYwmY_N2w" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_izIZEMTQEeuofKYwmY_N2w">
+            <body>try { String[] cmd = { &quot;python3&quot;, &quot;main.py&quot;, &quot;anxopuntojar&quot; };&#xD;
+	 * Runtime.getRuntime().exec(cmd); } catch (IOException ioe) {&#xD;
+	 * System.out.println(ioe); }</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_iyYLIcTQEeuofKYwmY_N2w" name="login" type="_ivRz0MTQEeuofKYwmY_N2w"/>
+          <ownedParameter xmi:id="_iyYyMsTQEeuofKYwmY_N2w" type="_ivE_gMTQEeuofKYwmY_N2w" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ivLGIMTQEeuofKYwmY_N2w" name="ToolsWindowsController">
+        <ownedAttribute xmi:id="_iy03EMTQEeuofKYwmY_N2w" name="osint" visibility="private" type="_ivE_gMTQEeuofKYwmY_N2w" association="_izN4o8TQEeuofKYwmY_N2w"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izEuscTQEeuofKYwmY_N2w" name="ToolsWindowsController" specification="_iyb1gMTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_izEussTQEeuofKYwmY_N2w" name="osint" type="_ivE_gMTQEeuofKYwmY_N2w"/>
+          <ownedParameter xmi:id="_izEus8TQEeuofKYwmY_N2w" type="_ivLGIMTQEeuofKYwmY_N2w" direction="return"/>
+          <language>java</language>
+          <body>this.osint = osint;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izEutMTQEeuofKYwmY_N2w" name="getUserInfo" specification="_ivM7UMTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_izEutcTQEeuofKYwmY_N2w" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// Reading data using readLine&#xD;
+		String userInfo = osint.readOutput();&#xD;
+&#xD;
+		return userInfo;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izEutsTQEeuofKYwmY_N2w" name="downloadImages" specification="_ivNiYMTQEeuofKYwmY_N2w">
+          <language>java</language>
+          <body>osint.sendCommand(&quot;photos\n&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izFVwMTQEeuofKYwmY_N2w" name="downloadProPic" specification="_ivNiYcTQEeuofKYwmY_N2w">
+          <language>java</language>
+          <body>osint.sendCommand(&quot;propic\n&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izFVwcTQEeuofKYwmY_N2w" name="seeAllFollowing" specification="_ivOJcMTQEeuofKYwmY_N2w">
+          <language>java</language>
+          <body>osint.sendCommand(&quot;following\n&quot;);&#xD;
+		JOptionPane.showMessageDialog(null, osint.getLastOutput(), &quot;Following List&quot;, JOptionPane.PLAIN_MESSAGE);&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izF80MTQEeuofKYwmY_N2w" name="seeFollowingNumbers" specification="_ivOJccTQEeuofKYwmY_N2w">
+          <language>java</language>
+          <body>osint.sendCommand(&quot;fwingnumbers\n&quot;);&#xD;
+		JOptionPane.showMessageDialog(null, osint.getLastOutput(), &quot;Followings Numberss&quot;, JOptionPane.PLAIN_MESSAGE);&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izF80cTQEeuofKYwmY_N2w" name="seeFollowingMails" specification="_ivOwgMTQEeuofKYwmY_N2w">
+          <language>java</language>
+          <body>osint.sendCommand(&quot;fwingemail\n&quot;);&#xD;
+		JOptionPane.showMessageDialog(null, osint.getLastOutput(), &quot;Following Emails&quot;, JOptionPane.PLAIN_MESSAGE);&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izF80sTQEeuofKYwmY_N2w" name="seeAllFollowers" specification="_ivOwgcTQEeuofKYwmY_N2w">
+          <language>java</language>
+          <body>osint.sendCommand(&quot;followers\n&quot;);&#xD;
+		JOptionPane.showMessageDialog(null, osint.getLastOutput(), &quot;Followers List&quot;, JOptionPane.PLAIN_MESSAGE);&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izF808TQEeuofKYwmY_N2w" name="seeFollowersNumbers" specification="_ivOwgsTQEeuofKYwmY_N2w">
+          <language>java</language>
+          <body>osint.sendCommand(&quot;fwrsnumber\n&quot;);&#xD;
+		JOptionPane.showMessageDialog(null, osint.getLastOutput(), &quot;Followers Numberss&quot;, JOptionPane.PLAIN_MESSAGE);&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izF81MTQEeuofKYwmY_N2w" name="seeFollowersMails" specification="_ivPXkMTQEeuofKYwmY_N2w">
+          <language>java</language>
+          <body>osint.sendCommand(&quot;fwersemail\n&quot;);&#xD;
+		JOptionPane.showMessageDialog(null, osint.getLastOutput(), &quot;Followers Emails&quot;, JOptionPane.PLAIN_MESSAGE);&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izF81cTQEeuofKYwmY_N2w" name="showAllTagged" specification="_ivPXkcTQEeuofKYwmY_N2w">
+          <language>java</language>
+          <body>osint.sendCommand(&quot;tagged\n&quot;);&#xD;
+		JOptionPane.showMessageDialog(null, osint.getLastOutput(), &quot;People who taggerd&quot;, JOptionPane.PLAIN_MESSAGE);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_izGj4MTQEeuofKYwmY_N2w" name="showAllComments" specification="_ivPXksTQEeuofKYwmY_N2w">
+          <language>java</language>
+          <body>osint.sendCommand(&quot;comments\n&quot;);&#xD;
+		JOptionPane.showMessageDialog(null, osint.getLastOutput(), &quot;All comments&quot;, JOptionPane.PLAIN_MESSAGE);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ivM7UMTQEeuofKYwmY_N2w" name="getUserInfo" method="_izEutMTQEeuofKYwmY_N2w" raisedException="_iyVu4MTQEeuofKYwmY_N2w">
+          <ownedParameter xmi:id="_ivM7UcTQEeuofKYwmY_N2w" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ivNiYMTQEeuofKYwmY_N2w" name="downloadImages" method="_izEutsTQEeuofKYwmY_N2w" raisedException="_iyVu4MTQEeuofKYwmY_N2w"/>
+        <ownedOperation xmi:id="_ivNiYcTQEeuofKYwmY_N2w" name="downloadProPic" method="_izFVwMTQEeuofKYwmY_N2w"/>
+        <ownedOperation xmi:id="_ivOJcMTQEeuofKYwmY_N2w" name="seeAllFollowing" method="_izFVwcTQEeuofKYwmY_N2w"/>
+        <ownedOperation xmi:id="_ivOJccTQEeuofKYwmY_N2w" name="seeFollowingNumbers" method="_izF80MTQEeuofKYwmY_N2w"/>
+        <ownedOperation xmi:id="_ivOwgMTQEeuofKYwmY_N2w" name="seeFollowingMails" method="_izF80cTQEeuofKYwmY_N2w"/>
+        <ownedOperation xmi:id="_ivOwgcTQEeuofKYwmY_N2w" name="seeAllFollowers" method="_izF80sTQEeuofKYwmY_N2w"/>
+        <ownedOperation xmi:id="_ivOwgsTQEeuofKYwmY_N2w" name="seeFollowersNumbers" method="_izF808TQEeuofKYwmY_N2w"/>
+        <ownedOperation xmi:id="_ivPXkMTQEeuofKYwmY_N2w" name="seeFollowersMails" method="_izF81MTQEeuofKYwmY_N2w"/>
+        <ownedOperation xmi:id="_ivPXkcTQEeuofKYwmY_N2w" name="showAllTagged" method="_izF81cTQEeuofKYwmY_N2w"/>
+        <ownedOperation xmi:id="_ivPXksTQEeuofKYwmY_N2w" name="showAllComments" method="_izGj4MTQEeuofKYwmY_N2w"/>
+        <ownedOperation xmi:id="_iyb1gMTQEeuofKYwmY_N2w" name="ToolsWindowsController" method="_izEuscTQEeuofKYwmY_N2w">
+          <eAnnotations xmi:id="_iyb1gsTQEeuofKYwmY_N2w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_iyb1g8TQEeuofKYwmY_N2w" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_iyb1gcTQEeuofKYwmY_N2w" name="osint" type="_ivE_gMTQEeuofKYwmY_N2w"/>
+          <ownedParameter xmi:id="_iyb1hMTQEeuofKYwmY_N2w" type="_ivLGIMTQEeuofKYwmY_N2w" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_izMDcMTQEeuofKYwmY_N2w" name="" memberEnd="_izMDccTQEeuofKYwmY_N2w _iyya0MTQEeuofKYwmY_N2w">
+        <ownedEnd xmi:id="_izMDccTQEeuofKYwmY_N2w" name="" type="_iu6ncMTQEeuofKYwmY_N2w" association="_izMDcMTQEeuofKYwmY_N2w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_izNRkMTQEeuofKYwmY_N2w" name="" memberEnd="_izNRkcTQEeuofKYwmY_N2w _iyzo9cTQEeuofKYwmY_N2w">
+        <ownedEnd xmi:id="_izNRkcTQEeuofKYwmY_N2w" name="" type="_ivE_gMTQEeuofKYwmY_N2w" association="_izNRkMTQEeuofKYwmY_N2w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_izN4oMTQEeuofKYwmY_N2w" name="" memberEnd="_izN4ocTQEeuofKYwmY_N2w _iy0QAcTQEeuofKYwmY_N2w">
+        <ownedEnd xmi:id="_izN4ocTQEeuofKYwmY_N2w" name="" type="_ivE_gMTQEeuofKYwmY_N2w" association="_izN4oMTQEeuofKYwmY_N2w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_izN4o8TQEeuofKYwmY_N2w" name="" memberEnd="_izN4pMTQEeuofKYwmY_N2w _iy03EMTQEeuofKYwmY_N2w">
+        <ownedEnd xmi:id="_izN4pMTQEeuofKYwmY_N2w" name="" type="_ivLGIMTQEeuofKYwmY_N2w" association="_izN4o8TQEeuofKYwmY_N2w"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_iuhl4MTQEeuofKYwmY_N2w" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_iuhl4cTQEeuofKYwmY_N2w" name="swing">
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyUgwcTQEeuofKYwmY_N2w" name="JOptionPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyeRwcTQEeuofKYwmY_N2w" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iygG8MTQEeuofKYwmY_N2w" name="JTextField"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyguAcTQEeuofKYwmY_N2w" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyh8IMTQEeuofKYwmY_N2w" name="JLabel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyijMMTQEeuofKYwmY_N2w" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyjKQcTQEeuofKYwmY_N2w" name="JPasswordField"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_iymNkMTQEeuofKYwmY_N2w" name="SwingConstants"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyqfAMTQEeuofKYwmY_N2w" name="JTextArea"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyrtIcTQEeuofKYwmY_N2w" name="JScrollPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iyrtI8TQEeuofKYwmY_N2w" name="JTree"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_iutzIMTQEeuofKYwmY_N2w" name="main">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ivRMwMTQEeuofKYwmY_N2w" name="Main">
+        <ownedComment xmi:id="_izIZEcTQEeuofKYwmY_N2w">
+          <body>*&#xD;
+@author chelunike</body>
+        </ownedComment>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_ioWscMTQEeuofKYwmY_N2w">
+      <eAnnotations xmi:id="_ioZvwMTQEeuofKYwmY_N2w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_iocMAMTQEeuofKYwmY_N2w" base_Package="_iTGOIMTQEeuofKYwmY_N2w">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ivTpAcTQEeuofKYwmY_N2w" base_Element="_ivTB8MTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyQ2YMTQEeuofKYwmY_N2w" base_Element="_iyPoQMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyTSoMTQEeuofKYwmY_N2w" base_Element="_iySrkMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyUgwMTQEeuofKYwmY_N2w" base_Element="_iyT5sMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyVH0MTQEeuofKYwmY_N2w" base_Element="_iyUgwcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyWV8MTQEeuofKYwmY_N2w" base_Element="_iyVu4MTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyW9AMTQEeuofKYwmY_N2w" base_Element="_iyWV8cTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyXkEMTQEeuofKYwmY_N2w" base_Element="_iyW9AcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyaAUMTQEeuofKYwmY_N2w" base_Element="_iyZZQMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iybOcMTQEeuofKYwmY_N2w" base_Element="_iyanYMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyeRwMTQEeuofKYwmY_N2w" base_Element="_iydqsMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyff4MTQEeuofKYwmY_N2w" base_Element="_iyeRwcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyguAMTQEeuofKYwmY_N2w" base_Element="_iygG8MTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyhVEMTQEeuofKYwmY_N2w" base_Element="_iyguAcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyh8IcTQEeuofKYwmY_N2w" base_Element="_iyh8IMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyjKQMTQEeuofKYwmY_N2w" base_Element="_iyijMMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyjxUMTQEeuofKYwmY_N2w" base_Element="_iyjKQcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iykYYMTQEeuofKYwmY_N2w" base_Element="_iyjxUcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iylmgMTQEeuofKYwmY_N2w" base_Element="_iykYYcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iym0oMTQEeuofKYwmY_N2w" base_Element="_iymNkMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iynbsMTQEeuofKYwmY_N2w" base_Element="_iym0ocTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iynbssTQEeuofKYwmY_N2w" base_Element="_iynbscTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyrGEMTQEeuofKYwmY_N2w" base_Element="_iyqfAMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyrGEsTQEeuofKYwmY_N2w" base_Element="_iyrGEcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyrtIMTQEeuofKYwmY_N2w" base_Element="_iyrGE8TQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyrtIsTQEeuofKYwmY_N2w" base_Element="_iyrtIcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iysUMMTQEeuofKYwmY_N2w" base_Element="_iyrtI8TQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_iyvXgsTQEeuofKYwmY_N2w" base_Element="_iyvXgcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_iyzB4MTQEeuofKYwmY_N2w" base_Element="_iyya0MTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_iy0QAMTQEeuofKYwmY_N2w" base_Element="_iyzo9cTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_iy0QAsTQEeuofKYwmY_N2w" base_Element="_iy0QAcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_iy03EcTQEeuofKYwmY_N2w" base_Element="_iy03EMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_iy2FMMTQEeuofKYwmY_N2w" base_Element="_iy1eIsTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_iy2FMsTQEeuofKYwmY_N2w" base_Element="_iy2FMcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_iy2sQsTQEeuofKYwmY_N2w" base_Element="_iy2sQcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_iy3TUMTQEeuofKYwmY_N2w" base_Element="_iy2sQ8TQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_iy36YMTQEeuofKYwmY_N2w" base_Element="_iy3TUcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_iy36YsTQEeuofKYwmY_N2w" base_Element="_iy36YcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_iy4hccTQEeuofKYwmY_N2w" base_Element="_iy4hcMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_izMqgMTQEeuofKYwmY_N2w" base_Element="_izMDcMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_izNRksTQEeuofKYwmY_N2w" base_Element="_izNRkMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_izN4osTQEeuofKYwmY_N2w" base_Element="_izN4oMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_izOfsMTQEeuofKYwmY_N2w" base_Element="_izN4o8TQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_izOfs8TQEeuofKYwmY_N2w" base_Element="_izOfscTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_izPGwsTQEeuofKYwmY_N2w" base_Element="_izPGwMTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_izPt0MTQEeuofKYwmY_N2w" base_Element="_izPGw8TQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_izQU4MTQEeuofKYwmY_N2w" base_Element="_izPt0cTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_izQ78MTQEeuofKYwmY_N2w" base_Element="_izQU4cTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_izRjAMTQEeuofKYwmY_N2w" base_Element="_izQ78cTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_izRjA8TQEeuofKYwmY_N2w" base_Element="_izRjAcTQEeuofKYwmY_N2w"/>
+  <UMLLabProfile:Reference xmi:id="_izSKEMTQEeuofKYwmY_N2w" base_Element="_izRjBMTQEeuofKYwmY_N2w"/>
+</xmi:XMI>

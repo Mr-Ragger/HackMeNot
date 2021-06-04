@@ -6,7 +6,7 @@ public class LogIn {
 	private String password;
 	private String target;
 
-	public LogIn() {}
+	public 	LogIn() {}
 
 	public LogIn(String username, String password, String target) {
 		this.username = username;
