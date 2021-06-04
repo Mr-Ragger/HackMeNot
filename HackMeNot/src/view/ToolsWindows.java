@@ -91,18 +91,15 @@ public class ToolsWindows {
 				}
 			}
 		});
-		btnDownloadImages.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
 
-			}
-		});
 		btnDownloadImages.setBounds(10, 36, 192, 49);
 		userOptionsPanel.add(btnDownloadImages);
 
 		JButton btnDownloadPFP = new JButton("Download Profile Picture");
 		btnDownloadPFP.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+
+				tools.downloadProPic();
 			}
 		});
 		btnDownloadPFP.addMouseListener(new MouseAdapter() {
@@ -123,6 +120,13 @@ public class ToolsWindows {
 		userOptionsPanel.add(btnShowAllTagged);
 
 		JButton btnShowAllFollowing = new JButton("Show All People Followed By Target");
+		btnShowAllFollowing.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+
+				tools.seeAllFollowing();
+
+			}
+		});
 		btnShowAllFollowing.setBounds(10, 156, 407, 49);
 		userOptionsPanel.add(btnShowAllFollowing);
 
